@@ -1,0 +1,132 @@
+// Festival Takeover Template (RFW)
+//
+// This is a sample Remote Flutter Widgets template that reproduces the native
+// festival takeover layout using the `hato` local widget library.
+//
+// ## Publishing Flow
+//
+// 1. **Manifest JSON**: Upload the festival campaign manifest JSON to your CDN
+//    or static host (e.g., `https://example.com/campaigns/ganeshotsav.json`).
+//    Set `FESTIVAL_MANIFEST_URL` env var to this URL, or include it as a
+//    bundled asset at `assets/festival/default_campaign.json`.
+//
+// 2. **RFW Template (optional)**: To customize the layout beyond what the
+//    native renderer supports, upload a `.rfwtxt` template to your host
+//    (e.g., `https://example.com/campaigns/ganeshotsav.rfwtxt`) and set
+//    `rfwTemplateUrl` in the manifest JSON to this URL.
+//
+//    The template has access to:
+//    - Campaign data under `data.campaign` (the full manifest map)
+//    - Core widgets: Column, Row, Container, Text, SizedBox, etc.
+//    - Material widgets: Card, InkWell, etc.
+//    - Hato locals: hato.NetworkImage, hato.PriceBadge, hato.FestivalTile
+//
+// 3. **Fallback**: If the RFW template fetch/compile/render fails at ANY stage,
+//    the app silently falls back to the native `FestivalTakeoverSection`
+//    renderer using the same manifest data. This ensures the festival always
+//    renders, even when the server is unreachable.
+//
+// 4. **Cache**: Fetched templates are cached locally (SharedPreferences) per
+//    campaign ID. On fetch failure, the cache is tried before falling back to
+//    native. This allows graceful degradation during network issues.
+//
+// ## This Sample
+//
+// Reproduces a simplified version of the native layout:
+// - Hero section with kicker, title, and art image
+// - Collection grid rendering each collection as a hato.FestivalTile
+
+import core.widgets;
+import material;
+import hato;
+
+widget root = Column(
+  mainAxisSize: "min",
+  children: [
+    // Hero band
+    Container(
+      width: "infinity",
+      height: 110.0,
+      padding: [16.0, 8.0, 16.0, 8.0],
+      decoration: {
+        gradient: {
+          type: "linear",
+          begin: { x: 0.0, y: -1.0 },
+          end: { x: 0.0, y: 1.0 },
+          colors: [
+            0xFFEDE7F9,  // heroGradientTop (example color)
+            0xFFDCD0F0,  // heroGradientBottom
+          ],
+        },
+      },
+      child: Row(
+        children: [
+          Expanded(
+            child: Column(
+              mainAxisSize: "min",
+              mainAxisAlignment: "center",
+              crossAxisAlignment: "start",
+              children: [
+                Text(
+                  text: [data.campaign.hero.kicker],
+                  style: {
+                    fontSize: 11.0,
+                    fontWeight: "w700",
+                    color: 0xFF4A2C7A,
+                  },
+                ),
+                SizedBox(height: 4.0),
+                Text(
+                  text: [data.campaign.hero.title],
+                  style: {
+                    fontSize: 26.0,
+                    fontWeight: "w600",
+                    fontStyle: "italic",
+                    color: 0xFF4A2C7A,
+                  },
+                ),
+              ],
+            ),
+          ),
+          SizedBox(width: 12.0),
+          // Hero art (if provided)
+          ...switch(data.campaign.hero.artUrl) {
+            "": [],
+            default: [
+              hato.NetworkImage(
+                url: data.campaign.hero.artUrl,
+                width: 100.0,
+                height: 90.0,
+              ),
+            ],
+          },
+        ],
+      ),
+    ),
+
+    // Collection grid
+    Container(
+      width: "infinity",
+      padding: [16.0, 12.0, 16.0, 16.0],
+      color: 0xFFDCD0F0,  // heroGradientBottom
+      child: Column(
+        mainAxisSize: "min",
+        children: [
+          ...for collection in data.campaign.collections:
+            Padding(
+              padding: [0.0, 0.0, 0.0, 8.0],
+              child: hato.FestivalTile(
+                title: collection.title,
+                imageUrl: collection.imageUrl,
+                query: collection.query,
+                featured: collection.featured,
+                badgeMrp: collection.badge.mrp,
+                badgePrice: collection.badge.price,
+                onTap: event "onCollectionTap" { query: collection.query },
+              ),
+            ),
+        ],
+      ),
+    ),
+  ],
+);

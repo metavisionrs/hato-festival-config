@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "campaignId": "diwali_2026",
+  "name": "Diwali",
+  "startsAt": "2026-08-25T00:00:00+05:30",
+  "endsAt": "2026-11-15T23:59:59+05:30",
+  "theme": {
+    "headerColor": "#1A1145",
+    "heroGradientTop": "#FFF8E1",
+    "heroGradientBottom": "#FFE9A8",
+    "tileBackground": "#FFF3C4",
+    "accent": "#D4A017",
+    "titleColor": "#7A1F1F",
+    "priceBadgeBg": "#FFD54F",
+    "priceBadgeFg": "#3E2723"
+  },
+  "hero": {
+    "kicker": "LIGHT UP",
+    "title": "Diwali",
+    "artUrl": "",
+    "sponsorLabel": "POWERED BY HATO",
+    "sponsorLogoUrl": null
+  },
+  "festivalTab": { "label": "Diwali", "iconUrl": null, "isNew": true },
+  "searchHints": ["diyas", "rangoli colors", "kaju katli", "fairy lights", "gift hampers"],
+  "collections": [
+    { "title": "Diyas & Candles", "imageUrl": null, "badge": { "mrp": 149, "price": 99 }, "query": "diya candles", "featured": true },
+    { "title": "Sweets & Dry Fruits", "imageUrl": null, "badge": { "mrp": 499, "price": 399 }, "query": "sweets dry fruits", "featured": false },
+    { "title": "Rangoli & Decor", "imageUrl": null, "badge": null, "query": "rangoli decor", "featured": false },
+    { "title": "Lakshmi Pooja Samagri", "imageUrl": null, "badge": null, "query": "pooja samagri", "featured": false },
+    { "title": "Gift Hampers", "imageUrl": null, "badge": { "mrp": 999, "price": 749 }, "query": "gift hamper", "featured": false }
+  ],
+  "rfwTemplateUrl": null
+}

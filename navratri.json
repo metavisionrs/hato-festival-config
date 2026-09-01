@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "campaignId": "navratri_2026",
+  "name": "Navratri",
+  "startsAt": "2026-08-25T00:00:00+05:30",
+  "endsAt": "2026-10-15T23:59:59+05:30",
+  "theme": {
+    "headerColor": "#C2185B",
+    "heroGradientTop": "#FFF3E0",
+    "heroGradientBottom": "#FFE0B2",
+    "tileBackground": "#FFECB3",
+    "accent": "#E91E63",
+    "titleColor": "#AD1457",
+    "priceBadgeBg": "#FFD54F",
+    "priceBadgeFg": "#4E342E"
+  },
+  "hero": {
+    "kicker": "DANCE INTO",
+    "title": "Navratri",
+    "artUrl": "",
+    "sponsorLabel": "POWERED BY HATO",
+    "sponsorLogoUrl": null
+  },
+  "festivalTab": { "label": "Navratri", "iconUrl": null, "isNew": true },
+  "searchHints": ["garba dress", "falahar", "dandiya sticks", "vrat food"],
+  "collections": [
+    { "title": "Vrat & Falahar", "imageUrl": null, "badge": { "mrp": 199, "price": 149 }, "query": "vrat falahar", "featured": true },
+    { "title": "Chaniya Choli & Garba", "imageUrl": null, "badge": null, "query": "garba dress", "featured": false },
+    { "title": "Dandiya Sticks", "imageUrl": null, "badge": { "mrp": 150, "price": 99 }, "query": "dandiya", "featured": false },
+    { "title": "Devi Pooja Samagri", "imageUrl": null, "badge": null, "query": "pooja samagri", "featured": false },
+    { "title": "Festive Sweets", "imageUrl": null, "badge": { "mrp": 300, "price": 249 }, "query": "sweets", "featured": false }
+  ],
+  "rfwTemplateUrl": null
+}

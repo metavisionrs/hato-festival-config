@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "campaignId": "christmas_2026",
+  "name": "Christmas",
+  "startsAt": "2026-08-25T00:00:00+05:30",
+  "endsAt": "2026-12-31T23:59:59+05:30",
+  "theme": {
+    "headerColor": "#0B3D2E",
+    "heroGradientTop": "#FDECEC",
+    "heroGradientBottom": "#F8CFCF",
+    "tileBackground": "#EAF6EF",
+    "accent": "#C62828",
+    "titleColor": "#B71C1C",
+    "priceBadgeBg": "#FFD54F",
+    "priceBadgeFg": "#1B3A2A"
+  },
+  "hero": {
+    "kicker": "MERRY",
+    "title": "Christmas",
+    "artUrl": "",
+    "sponsorLabel": "POWERED BY HATO",
+    "sponsorLogoUrl": null
+  },
+  "festivalTab": { "label": "Christmas", "iconUrl": null, "isNew": true },
+  "searchHints": ["plum cake", "christmas tree", "santa caps", "fairy lights", "hot chocolate"],
+  "collections": [
+    { "title": "Cakes & Plum Cake", "imageUrl": null, "badge": { "mrp": 599, "price": 449 }, "query": "plum cake", "featured": true },
+    { "title": "Tree & Ornaments", "imageUrl": null, "badge": { "mrp": 999, "price": 699 }, "query": "christmas tree decor", "featured": false },
+    { "title": "Santa Caps & Costumes", "imageUrl": null, "badge": null, "query": "santa costume", "featured": false },
+    { "title": "Choco & Cookies", "imageUrl": null, "badge": { "mrp": 349, "price": 249 }, "query": "chocolates cookies", "featured": false },
+    { "title": "Gifting & Hampers", "imageUrl": null, "badge": null, "query": "gift hamper", "featured": false }
+  ],
+  "rfwTemplateUrl": null
+}

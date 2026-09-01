@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "campaignId": "ganeshotsav_2026",
+  "name": "Ganeshotsav",
+  "startsAt": "2026-08-25T00:00:00+05:30",
+  "endsAt": "2026-09-20T23:59:59+05:30",
+  "theme": {
+    "headerColor": "#4A2C7A",
+    "heroGradientTop": "#EDE7F9",
+    "heroGradientBottom": "#DCD0F0",
+    "tileBackground": "#E4DCF5",
+    "accent": "#F5B84A",
+    "titleColor": "#4A2C7A",
+    "priceBadgeBg": "#FFE84D",
+    "priceBadgeFg": "#2F2F2F"
+  },
+  "hero": {
+    "kicker": "CELEBRATE",
+    "title": "Ganeshotsav",
+    "artUrl": "",
+    "sponsorLabel": "POWERED BY HATO",
+    "sponsorLogoUrl": null
+  },
+  "festivalTab": { "label": "Ganeshotsav", "iconUrl": null, "isNew": true },
+  "searchHints": ["modak", "pooja thali", "festive decor", "prasad"],
+  "collections": [
+    { "title": "Pooja & Temple Decor", "imageUrl": null, "badge": { "mrp": 110, "price": 99 }, "query": "pooja decor", "featured": true },
+    { "title": "Prasad Corner", "imageUrl": null, "badge": null, "query": "prasad", "featured": false },
+    { "title": "Modak & Sweets", "imageUrl": null, "badge": { "mrp": 250, "price": 199 }, "query": "modak sweets", "featured": false },
+    { "title": "Fasting Essentials", "imageUrl": null, "badge": null, "query": "fasting food", "featured": false },
+    { "title": "Flowers & Garlands", "imageUrl": null, "badge": { "mrp": 80, "price": 59 }, "query": "flowers garland", "featured": false }
+  ],
+  "rfwTemplateUrl": null
+}

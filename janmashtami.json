@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "campaignId": "janmashtami_2026",
+  "name": "Janmashtami",
+  "startsAt": "2026-08-25T00:00:00+05:30",
+  "endsAt": "2026-09-10T23:59:59+05:30",
+  "theme": {
+    "headerColor": "#2A1A5E",
+    "heroGradientTop": "#EDE7F9",
+    "heroGradientBottom": "#D6C8F0",
+    "tileBackground": "#E4DCF5",
+    "accent": "#0E8C73",
+    "titleColor": "#2A1A5E",
+    "priceBadgeBg": "#FFE84D",
+    "priceBadgeFg": "#2F2F2F"
+  },
+  "hero": {
+    "kicker": "CELEBRATE",
+    "title": "Janmashtami",
+    "artUrl": "https://raw.githubusercontent.com/AnuragCsharp/hato-festival-config/main/krishna_matki.json",
+    "artIsLottie": true,
+    "sponsorLabel": "POWERED BY HATO",
+    "sponsorLogoUrl": null
+  },
+  "festivalTab": {
+    "label": "Janmashtami",
+    "iconUrl": null,
+    "isNew": true
+  },
+  "searchHints": [
+    "makhan mishri",
+    "laddu gopal dress",
+    "dahi handi",
+    "flute & mukut"
+  ],
+  "banner": {
+    "title": "Nand Gher Anand Bhayo!",
+    "subtitle": "Makhan, mishri, poshak & pooja —\nsab kuch ghar baithe.",
+    "ctaLabel": "Shop Now"
+  },
+  "collections": [
+    {
+      "title": "Poshak, Idol & More",
+      "imageUrl": null,
+      "badge": {
+        "mrp": 110,
+        "price": 99
+      },
+      "query": "laddu gopal poshak",
+      "featured": true
+    },
+    {
+      "title": "Prasad Corner",
+      "imageUrl": null,
+      "badge": null,
+      "query": "prasad",
+      "featured": false
+    },
+    {
+      "title": "Kids' Costume & Shringar",
+      "imageUrl": null,
+      "badge": {
+        "mrp": 699,
+        "price": 349
+      },
+      "query": "krishna costume",
+      "featured": false
+    },
+    {
+      "title": "Fasting & Dahi Handi",
+      "imageUrl": null,
+      "badge": null,
+      "query": "fasting dahi handi",
+      "featured": false
+    },
+    {
+      "title": "Pooja & Temple Decor",
+      "imageUrl": null,
+      "badge": {
+        "mrp": 199,
+        "price": 149
+      },
+      "query": "pooja decor",
+      "featured": false
+    }
+  ],
+  "rfwTemplateUrl": null
+}
