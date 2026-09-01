@@ -1,81 +1,88 @@
 {
-    "schemaVersion": 1,
-    "enabled": true,
-    "campaignId": "janmashtami_2026_v2",
-    "name": "Janmashtami",
-    "startsAt": "2026-08-25T00:00:00+05:30",
-    "endsAt": "2026-09-10T23:59:59+05:30",
-    "theme": {
-      "headerColor": "#17205B",
-      "heroGradientTop": "#FFF6E9",
-      "heroGradientBottom": "#FFE3B3",
-      "tileBackground": "#FFF1D6",
-      "accent": "#14867C",
-      "titleColor": "#1D2E7C",
-      "priceBadgeBg": "#14867C",
-      "priceBadgeFg": "#FFFFFF"
+  "schemaVersion": 1,
+  "enabled": true,
+  "campaignId": "janmashtami_2026_v3_midnight",
+  "name": "Janmashtami",
+  "startsAt": "2026-08-25T00:00:00+05:30",
+  "endsAt": "2026-09-06T23:59:59+05:30",
+  "theme": {
+    "headerColor": "#0B1B4D",
+    "heroGradientTop": "#EAF1FF",
+    "heroGradientBottom": "#C9DCFB",
+    "tileBackground": "#E1EBFC",
+    "accent": "#0E8098",
+    "titleColor": "#0B1B4D",
+    "priceBadgeBg": "#FFC93C",
+    "priceBadgeFg": "#1A2455"
+  },
+  "hero": {
+    "kicker": "MAKHAN CHOR DAYS",
+    "title": "Janmashtami",
+    "artUrl": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/krishna_matki.json",
+    "artIsLottie": true,
+    "sponsorLabel": "POWERED BY HATO",
+    "sponsorLogoUrl": null
+  },
+  "festivalTab": {
+    "label": "Janmashtami",
+    "iconUrl": null,
+    "isNew": true
+  },
+  "searchHints": [
+    "makhan mishri",
+    "dahi handi",
+    "vrat snacks",
+    "morpankh mukut",
+    "panjiri"
+  ],
+  "banner": {
+    "title": "Makhan Chor Aa Gaya!",
+    "subtitle": "Dahi-handi essentials, vrat food & mandir\nrides — HATO sab sambhal lega.",
+    "ctaLabel": "Celebrate Now"
+  },
+  "collections": [
+    {
+      "title": "Dahi Handi Essentials 🥛",
+      "imageUrl": null,
+      "badge": { "mrp": 299, "price": 199 },
+      "query": "dahi handi",
+      "featured": true
     },
-    "hero": {
-      "kicker": "HATHI GHODA PALKI",
-      "title": "Janmashtami",
-      "artUrl": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/krishna_matki.json",
-      "artIsLottie": true,
-      "sponsorLabel": "POWERED BY HATO",
-      "sponsorLogoUrl": null
+    {
+      "title": "Makhan, Mishri & Bhog 🧈",
+      "imageUrl": null,
+      "badge": null,
+      "query": "prasad makhan mishri",
+      "featured": false
     },
-    "festivalTab": {
-      "label": "Janmashtami",
-      "iconUrl": null,
-      "isNew": true
+    {
+      "title": "Vrat Special — Falahar 🍌",
+      "imageUrl": null,
+      "badge": { "mrp": 199, "price": 149 },
+      "query": "vrat fasting food",
+      "featured": false
     },
-    "searchHints": [
-      "makhan mishri",
-      "morpankh",
-      "bansuri",
-      "laddu gopal poshak",
-      "dahi handi"
-    ],
-    "banner": {
-      "title": "Hathi Ghoda Palki!",
-      "subtitle": "Kanha's favourites — makhan, mishri,\nposhak & pooja, delivered in minutes.",
-      "ctaLabel": "Shop Festive"
+    {
+      "title": "Kanha's Poshak & Mukut 👑",
+      "imageUrl": null,
+      "badge": { "mrp": 499, "price": 279 },
+      "query": "laddu gopal poshak",
+      "featured": false
     },
-    "collections": [
-      {
-        "title": "Laddu Gopal Poshak",
-        "imageUrl": null,
-        "badge": { "mrp": 499, "price": 299 },
-        "query": "laddu gopal poshak",
-        "featured": true
-      },
-      {
-        "title": "Makhan-Mishri Bhog",
-        "imageUrl": null,
-        "badge": null,
-        "query": "prasad makhan mishri",
-        "featured": false
-      },
-      {
-        "title": "Bal Krishna Costumes",
-        "imageUrl": null,
-        "badge": { "mrp": 699, "price": 349 },
-        "query": "krishna costume",
-        "featured": false
-      },
-      {
-        "title": "Vrat & Dahi Handi",
-        "imageUrl": null,
-        "badge": { "mrp": 199, "price": 129 },
-        "query": "fasting dahi handi",
-        "featured": false
-      },
-      {
-        "title": "Morpankh & Pooja Decor",
-        "imageUrl": null,
-        "badge": { "mrp": 249, "price": 179 },
-        "query": "pooja decor morpankh",
-        "featured": false
-      }
-    ],
-    "rfwTemplateUrl": null
-  }
+    {
+      "title": "Morpankh & Mandir Decor 🦚",
+      "imageUrl": null,
+      "badge": { "mrp": 249, "price": 169 },
+      "query": "pooja decor morpankh",
+      "featured": false
+    },
+    {
+      "title": "Midnight Peda & Sweets 🍬",
+      "imageUrl": null,
+      "badge": { "mrp": 349, "price": 249 },
+      "query": "peda sweets",
+      "featured": false
+    }
+  ],
+  "rfwTemplateUrl": null
+}
