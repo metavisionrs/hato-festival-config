@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "section": "food",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "MIDNIGHT BHOG",
+    "title": "Janmashtami Feasts",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Vrat se Bhog tak",
+    "subtitle": "Falahari thalis for the fast, makhan-mishri sweets for the midnight celebration.",
+    "cta": {
+      "label": "Order Bhog",
+      "target": "food",
+      "query": "vrat thali"
+    }
+  },
+  "searchHints": ["vrat thali", "falahari", "makhan mishri sweets", "sabudana khichdi", "peda"],
+  "copy": {
+    "en": {
+      "greeting": "Fasting today? We deliver falahar.",
+      "offer_note": "Special Janmashtami menus from your favourite kitchens."
+    },
+    "hi": {
+      "greeting": "आज व्रत है? फलाहार हम पहुंचाएंगे।",
+      "offer_note": "आपकी पसंदीदा रसोइयों से जन्माष्टमी स्पेशल मेन्यू।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "cuisineCollection",
+      "title": "Vrat Thali — Falahari Special",
+      "image": null,
+      "query": "vrat thali falahari"
+    },
+    {
+      "type": "cuisineCollection",
+      "title": "Makhan & Mishri Sweets",
+      "image": null,
+      "query": "makhan mishri sweets"
+    },
+    {
+      "type": "cuisineCollection",
+      "title": "Sabudana & Kuttu Corner",
+      "image": null,
+      "query": "sabudana kuttu"
+    },
+    {
+      "type": "offerStrip",
+      "text": "Midnight bhog orders till 12:30 AM on Janmashtami night — Kanha ke birthday pe kitchen jagta hai!"
+    }
+  ],
+  "rfwTemplateUrl": null
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "section": "ride",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "MANDIR EXPRESS",
+    "title": "Darshan Rides",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Mandir jaana hai?",
+    "subtitle": "Book a ride to darshan and dahi-handi celebrations — beat the midnight rush.",
+    "cta": {
+      "label": "Book Darshan Ride",
+      "target": "ride",
+      "query": "mandir"
+    }
+  },
+  "searchHints": ["mandir", "iskcon temple", "dahi handi"],
+  "copy": {
+    "en": {
+      "greeting": "Reach the aarti on time.",
+      "safety_note": "Festival-night streets get crowded — plan your return ride early."
+    },
+    "hi": {
+      "greeting": "आरती के समय पर पहुंचें।",
+      "safety_note": "त्योहार की रात सड़कों पर भीड़ रहती है — वापसी की सवारी पहले बुक करें।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "destinationShortcut",
+      "label": "Mandir darshan",
+      "searchText": "temple mandir"
+    },
+    {
+      "type": "destinationShortcut",
+      "label": "Dahi Handi spots",
+      "searchText": "dahi handi ground"
+    },
+    {
+      "type": "safetyBanner",
+      "text": "Midnight aarti crowds expected on Sep 4-5. Roads near major temples may be diverted — allow extra time and follow your captain's route."
+    }
+  ],
+  "rfwTemplateUrl": null
+}

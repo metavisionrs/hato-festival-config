@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "section": "grocery",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "MAKHAN CHOR DAYS",
+    "title": "Janmashtami",
+    "art": {
+      "type": "lottie",
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/krishna_matki.json",
+      "fallbackAsset": null,
+      "aspectRatio": 1.6,
+      "fit": "contain",
+      "maxBytes": 524288,
+      "sha256": null,
+      "loop": true,
+      "autoplay": true,
+      "semanticLabelKey": "hero_art",
+      "reducedMotionFallback": null
+    },
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Makhan Chor Aa Gaya!",
+    "subtitle": "Dahi-handi essentials, vrat food & mandir rides — HATO sab sambhal lega.",
+    "cta": {
+      "label": "Celebrate Now",
+      "target": "grocery",
+      "query": "dahi handi"
+    }
+  },
+  "searchHints": [
+    "makhan mishri",
+    "dahi handi",
+    "vrat snacks",
+    "morpankh mukut",
+    "panjiri"
+  ],
+  "copy": {
+    "en": {
+      "greeting": "Happy Janmashtami!",
+      "section_subtitle": "Bhog, vrat and dahi-handi — everything delivered."
+    },
+    "hi": {
+      "greeting": "जन्माष्टमी की शुभकामनाएं!",
+      "section_subtitle": "भोग, व्रत और दही-हांडी — सब कुछ घर बैठे।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "collectionTile",
+      "title": "Dahi Handi Essentials 🥛",
+      "image": null,
+      "badge": { "mrp": 299, "price": 199 },
+      "query": "dahi handi",
+      "featured": true
+    },
+    {
+      "type": "collectionTile",
+      "title": "Makhan, Mishri & Bhog 🧈",
+      "image": null,
+      "badge": null,
+      "query": "prasad makhan mishri",
+      "featured": false
+    },
+    {
+      "type": "collectionTile",
+      "title": "Vrat Special — Falahar 🍌",
+      "image": null,
+      "badge": { "mrp": 199, "price": 149 },
+      "query": "vrat fasting food",
+      "featured": false
+    },
+    {
+      "type": "collectionTile",
+      "title": "Kanha's Poshak & Mukut 👑",
+      "image": null,
+      "badge": { "mrp": 499, "price": 279 },
+      "query": "laddu gopal poshak",
+      "featured": false
+    },
+    {
+      "type": "collectionTile",
+      "title": "Morpankh & Mandir Decor 🦚",
+      "image": null,
+      "badge": { "mrp": 249, "price": 169 },
+      "query": "pooja decor morpankh",
+      "featured": false
+    },
+    {
+      "type": "collectionTile",
+      "title": "Midnight Peda & Sweets 🍬",
+      "image": null,
+      "badge": { "mrp": 349, "price": 249 },
+      "query": "peda sweets",
+      "featured": false
+    }
+  ],
+  "rfwTemplateUrl": null
+}

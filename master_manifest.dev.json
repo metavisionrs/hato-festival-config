@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 2,
+  "revision": 1,
+  "campaignId": "janmashtami_2026_v3",
+  "name": "Janmashtami",
+  "enabled": true,
+  "startsAt": "2026-08-25T00:00:00+05:30",
+  "endsAt": "2026-09-06T23:59:59+05:30",
+  "minAppBuild": 48,
+  "theme": {
+    "background": "#F4F8FF",
+    "surface": "#E1EBFC",
+    "surfaceElevated": "#FFFFFF",
+    "header": "#0B1B4D",
+    "accent": "#0E8098",
+    "accentSecondary": "#FFC93C",
+    "title": "#0B1B4D",
+    "body": "#24315E",
+    "mutedText": "#5A6690",
+    "divider": "#C9DCFB",
+    "heroGradientStart": "#EAF1FF",
+    "heroGradientEnd": "#C9DCFB",
+    "ctaBackground": "#0B1B4D",
+    "ctaForeground": "#FFC93C",
+    "badgeBackground": "#FFC93C",
+    "badgeForeground": "#1A2455"
+  },
+  "sponsor": {
+    "enabled": true,
+    "label": "POWERED BY",
+    "name": "HATO",
+    "logoUrl": null,
+    "disclosure": "Sponsored"
+  },
+  "assetBaseUrl": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/assets/",
+  "sections": {
+    "home": {
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/home.json"
+    },
+    "food": {
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/food.json"
+    },
+    "grocery": {
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/grocery.json"
+    },
+    "ride": {
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/ride.json"
+    },
+    "parcel": {
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/parcel.json"
+    },
+    "carpool": {
+      "enabled": true,
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/carpool.json"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "section": "carpool",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "SANG CHALO",
+    "title": "Festival Carpools",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Ujjain darshan, shared ride",
+    "subtitle": "Find or offer a seat for Janmashtami temple runs — split the fare, share the bhajans.",
+    "cta": {
+      "label": "Find a Ride",
+      "target": "carpool",
+      "query": "ujjain"
+    }
+  },
+  "searchHints": ["ujjain", "indore", "mandir"],
+  "copy": {
+    "en": {
+      "greeting": "Share the road to Kanha.",
+      "empty_hint": "No rides yet? Publish one — festival weekends fill up fast."
+    },
+    "hi": {
+      "greeting": "कान्हा तक का सफर साथ में।",
+      "empty_hint": "अभी कोई सवारी नहीं? खुद पब्लिश करें — त्योहार के वीकेंड जल्दी भर जाते हैं।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "eventRoute",
+      "label": "Indore → Ujjain (Mahakal darshan)",
+      "from": "Indore",
+      "to": "Ujjain"
+    },
+    {
+      "type": "eventRoute",
+      "label": "Ujjain → Indore (return)",
+      "from": "Ujjain",
+      "to": "Indore"
+    },
+    {
+      "type": "emptyStateCopy",
+      "text": "No Janmashtami rides on this route yet. Be the first — publish your trip and fill your car with fellow devotees."
+    }
+  ],
+  "rfwTemplateUrl": null
+}

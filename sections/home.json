@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 2,
+  "section": "home",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "MAKHAN CHOR DAYS",
+    "title": "Janmashtami",
+    "art": {
+      "type": "lottie",
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/krishna_matki.json",
+      "fallbackAsset": null,
+      "aspectRatio": 1.6,
+      "fit": "contain",
+      "maxBytes": 524288,
+      "sha256": null,
+      "loop": true,
+      "autoplay": true,
+      "semanticLabelKey": "hero_art",
+      "reducedMotionFallback": null
+    },
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Makhan Chor Aa Gaya!",
+    "subtitle": "Dahi-handi essentials, vrat food & mandir rides — HATO sab sambhal lega.",
+    "cta": {
+      "label": "Celebrate Now",
+      "target": "grocery",
+      "query": "dahi handi"
+    }
+  },
+  "searchHints": ["makhan mishri", "dahi handi", "vrat snacks"],
+  "copy": {
+    "en": {
+      "greeting": "Happy Janmashtami!",
+      "festival_message": "This Janmashtami, HATO handles it all — bhog groceries, vrat thalis, mandir rides and pedas home. Nand Gher Anand Bhayo!",
+      "promo_banner_label": "Janmashtami with HATO"
+    },
+    "hi": {
+      "greeting": "जन्माष्टमी की शुभकामनाएं!",
+      "festival_message": "इस जन्माष्टमी HATO सब संभालेगा — भोग की सामग्री, व्रत थाली, मंदिर की सवारी और घर तक पेड़े। नंद घेर आनंद भयो!",
+      "promo_banner_label": "HATO के संग जन्माष्टमी"
+    }
+  },
+  "blocks": [
+    {
+      "type": "promoBanner",
+      "asset": {
+        "type": "lottie",
+        "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/krishna_matki.json",
+        "fallbackAsset": null,
+        "aspectRatio": 1.6,
+        "fit": "cover",
+        "maxBytes": 524288,
+        "sha256": null,
+        "loop": true,
+        "autoplay": true,
+        "semanticLabelKey": "promo_banner_label",
+        "reducedMotionFallback": null
+      },
+      "cta": {
+        "label": "Celebrate Now",
+        "target": "grocery",
+        "query": "dahi handi"
+      }
+    },
+    {
+      "type": "festivalMessage",
+      "copyKey": "festival_message"
+    }
+  ],
+  "rfwTemplateUrl": null
+}

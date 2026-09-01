@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "section": "parcel",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "MITHAAS DELIVERED",
+    "title": "Send Sweetness Home",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Door ho toh kya hua?",
+    "subtitle": "Send pedas, poshak and prasad to family across the city this Janmashtami.",
+    "cta": {
+      "label": "Send a Parcel",
+      "target": "parcel"
+    }
+  },
+  "searchHints": ["send sweets", "prasad delivery"],
+  "copy": {
+    "en": {
+      "greeting": "Sweets travel well with HATO.",
+      "gift_note": "Pack sweets in a sealed box — our helpers handle them with care."
+    },
+    "hi": {
+      "greeting": "मिठाई HATO के साथ सही सलामत पहुंचती है।",
+      "gift_note": "मिठाई सीलबंद डिब्बे में पैक करें — हमारे हेल्पर पूरी सावधानी रखते हैं।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "giftIdea",
+      "title": "Send peda home",
+      "image": null,
+      "copy": "A box of midnight pedas to your parents' doorstep — same day, same city."
+    },
+    {
+      "type": "giftIdea",
+      "title": "Laddu Gopal poshak for family",
+      "image": null,
+      "copy": "Bought a poshak or mukut? Parcel it to the family mandir before the midnight aarti."
+    },
+    {
+      "type": "boxSizeCard",
+      "title": "Sweet-box friendly sizes",
+      "copy": "Small fits a 500g mithai box; Medium carries a full prasad hamper."
+    }
+  ],
+  "rfwTemplateUrl": null
+}
