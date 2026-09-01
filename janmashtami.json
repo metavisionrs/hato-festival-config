@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "campaignId": "janmashtami_2026",
+  "campaignId": "janmashtami_2026_v3_midnight",
   "name": "Janmashtami",
   "startsAt": "2026-08-25T00:00:00+05:30",
-  "endsAt": "2026-09-10T23:59:59+05:30",
+  "endsAt": "2026-09-06T23:59:59+05:30",
   "theme": {
-    "headerColor": "#2A1A5E",
-    "heroGradientTop": "#EDE7F9",
-    "heroGradientBottom": "#D6C8F0",
-    "tileBackground": "#E4DCF5",
-    "accent": "#0E8C73",
-    "titleColor": "#2A1A5E",
-    "priceBadgeBg": "#FFE84D",
-    "priceBadgeFg": "#2F2F2F"
+    "headerColor": "#0B1B4D",
+    "heroGradientTop": "#EAF1FF",
+    "heroGradientBottom": "#C9DCFB",
+    "tileBackground": "#E1EBFC",
+    "accent": "#0E8098",
+    "titleColor": "#0B1B4D",
+    "priceBadgeBg": "#FFC93C",
+    "priceBadgeFg": "#1A2455"
   },
   "hero": {
-    "kicker": "CELEBRATE",
+    "kicker": "MAKHAN CHOR DAYS",
     "title": "Janmashtami",
     "artUrl": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/krishna_matki.json",
     "artIsLottie": true,
@@ -30,58 +30,57 @@
   },
   "searchHints": [
     "makhan mishri",
-    "laddu gopal dress",
     "dahi handi",
-    "flute & mukut"
+    "vrat snacks",
+    "morpankh mukut",
+    "panjiri"
   ],
   "banner": {
-    "title": "Nand Gher Anand Bhayo!",
-    "subtitle": "Makhan, mishri, poshak & pooja —\nsab kuch ghar baithe.",
-    "ctaLabel": "Shop Now"
+    "title": "Makhan Chor Aa Gaya!",
+    "subtitle": "Dahi-handi essentials, vrat food & mandir\nrides — HATO sab sambhal lega.",
+    "ctaLabel": "Celebrate Now"
   },
   "collections": [
     {
-      "title": "Poshak, Idol & More",
+      "title": "Dahi Handi Essentials 🥛",
       "imageUrl": null,
-      "badge": {
-        "mrp": 110,
-        "price": 99
-      },
-      "query": "laddu gopal poshak",
+      "badge": { "mrp": 299, "price": 199 },
+      "query": "dahi handi",
       "featured": true
     },
     {
-      "title": "Prasad Corner",
+      "title": "Makhan, Mishri & Bhog 🧈",
       "imageUrl": null,
       "badge": null,
-      "query": "prasad",
+      "query": "prasad makhan mishri",
       "featured": false
     },
     {
-      "title": "Kids' Costume & Shringar",
+      "title": "Vrat Special — Falahar 🍌",
       "imageUrl": null,
-      "badge": {
-        "mrp": 699,
-        "price": 349
-      },
-      "query": "krishna costume",
+      "badge": { "mrp": 199, "price": 149 },
+      "query": "vrat fasting food",
       "featured": false
     },
     {
-      "title": "Fasting & Dahi Handi",
+      "title": "Kanha's Poshak & Mukut 👑",
       "imageUrl": null,
-      "badge": null,
-      "query": "fasting dahi handi",
+      "badge": { "mrp": 499, "price": 279 },
+      "query": "laddu gopal poshak",
       "featured": false
     },
     {
-      "title": "Pooja & Temple Decor",
+      "title": "Morpankh & Mandir Decor 🦚",
       "imageUrl": null,
-      "badge": {
-        "mrp": 199,
-        "price": 149
-      },
-      "query": "pooja decor",
+      "badge": { "mrp": 249, "price": 169 },
+      "query": "pooja decor morpankh",
+      "featured": false
+    },
+    {
+      "title": "Midnight Peda & Sweets 🍬",
+      "imageUrl": null,
+      "badge": { "mrp": 349, "price": 249 },
+      "query": "peda sweets",
       "featured": false
     }
   ],
