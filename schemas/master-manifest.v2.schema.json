@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/schemas/master-manifest.v2.schema.json",
+  "title": "HATO Festival Master Manifest (schema v2, level 1)",
+  "description": "App-wide campaign entry point read via FESTIVAL_MASTER_MANIFEST_URL. See docs/festival_platform/MANIFEST_CONTRACT.md in the app repo.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "revision",
+    "campaignId",
+    "name",
+    "enabled",
+    "startsAt",
+    "endsAt",
+    "minAppBuild",
+    "theme",
+    "sections"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "revision": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Monotonically increasing; cache/analytics key. Bump on every publish."
+    },
+    "campaignId": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "enabled": {
+      "type": "boolean",
+      "description": "MASTER kill switch. false → the ENTIRE app renders stock UI."
+    },
+    "startsAt": { "$ref": "#/definitions/isoDateTime" },
+    "endsAt": { "$ref": "#/definitions/isoDateTime" },
+    "minAppBuild": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Clients below this build ignore the campaign."
+    },
+    "theme": { "$ref": "#/definitions/themeV2" },
+    "sponsor": { "$ref": "#/definitions/sponsor" },
+    "assetBaseUrl": { "$ref": "#/definitions/allowlistedHttpsUrl" },
+    "sections": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Each entry optional; a missing section = stock UI there.",
+      "properties": {
+        "home": { "$ref": "#/definitions/sectionRef" },
+        "food": { "$ref": "#/definitions/sectionRef" },
+        "grocery": { "$ref": "#/definitions/sectionRef" },
+        "ride": { "$ref": "#/definitions/sectionRef" },
+        "parcel": { "$ref": "#/definitions/sectionRef" },
+        "carpool": { "$ref": "#/definitions/sectionRef" }
+      }
+    }
+  },
+  "definitions": {
+    "hexColor": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$",
+      "description": "#RRGGBB only — no alpha, no named colors."
+    },
+    "isoDateTime": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}([+-]\\d{2}:\\d{2}|Z)$"
+    },
+    "allowlistedHttpsUrl": {
+      "type": "string",
+      "pattern": "^https://raw\\.githubusercontent\\.com/metavisionrs/.+$"
+    },
+    "themeV2": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "All 16 tokens OPTIONAL — missing tokens fall through to HATO stock colors (THEME_TOKENS.md).",
+      "properties": {
+        "background": { "$ref": "#/definitions/hexColor" },
+        "surface": { "$ref": "#/definitions/hexColor" },
+        "surfaceElevated": { "$ref": "#/definitions/hexColor" },
+        "header": { "$ref": "#/definitions/hexColor" },
+        "accent": { "$ref": "#/definitions/hexColor" },
+        "accentSecondary": { "$ref": "#/definitions/hexColor" },
+        "title": { "$ref": "#/definitions/hexColor" },
+        "body": { "$ref": "#/definitions/hexColor" },
+        "mutedText": { "$ref": "#/definitions/hexColor" },
+        "divider": { "$ref": "#/definitions/hexColor" },
+        "heroGradientStart": { "$ref": "#/definitions/hexColor" },
+        "heroGradientEnd": { "$ref": "#/definitions/hexColor" },
+        "ctaBackground": { "$ref": "#/definitions/hexColor" },
+        "ctaForeground": { "$ref": "#/definitions/hexColor" },
+        "badgeBackground": { "$ref": "#/definitions/hexColor" },
+        "badgeForeground": { "$ref": "#/definitions/hexColor" }
+      }
+    },
+    "sponsor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["enabled", "label", "name"],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "label": { "type": "string" },
+        "name": { "type": "string" },
+        "logoUrl": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/definitions/allowlistedHttpsUrl" }
+          ]
+        },
+        "disclosure": { "type": "string" }
+      }
+    },
+    "sectionRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["enabled", "url"],
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "SECTION kill switch — master stays up."
+        },
+        "url": { "$ref": "#/definitions/allowlistedHttpsUrl" }
+      }
+    }
+  }
+}

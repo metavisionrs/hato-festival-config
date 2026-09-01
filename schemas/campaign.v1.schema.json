@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/schemas/campaign.v1.schema.json",
+  "title": "HATO Festival Campaign (schema v1, grocery-only) — FROZEN",
+  "description": "Shape of the live /manifest.json read by builds 46/47 and of the library campaign files. This schema documents the FROZEN v1 contract; it must never be tightened in a way that rejects the current live files. banner and hero.artIsLottie are OPTIONAL to match real library files.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "enabled",
+    "campaignId",
+    "name",
+    "startsAt",
+    "endsAt",
+    "theme",
+    "hero",
+    "festivalTab",
+    "searchHints",
+    "collections"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "enabled": { "type": "boolean" },
+    "campaignId": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "startsAt": { "$ref": "#/definitions/isoDateTime" },
+    "endsAt": { "$ref": "#/definitions/isoDateTime" },
+    "theme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "headerColor",
+        "heroGradientTop",
+        "heroGradientBottom",
+        "tileBackground",
+        "accent",
+        "titleColor",
+        "priceBadgeBg",
+        "priceBadgeFg"
+      ],
+      "properties": {
+        "headerColor": { "$ref": "#/definitions/hexColor" },
+        "heroGradientTop": { "$ref": "#/definitions/hexColor" },
+        "heroGradientBottom": { "$ref": "#/definitions/hexColor" },
+        "tileBackground": { "$ref": "#/definitions/hexColor" },
+        "accent": { "$ref": "#/definitions/hexColor" },
+        "titleColor": { "$ref": "#/definitions/hexColor" },
+        "priceBadgeBg": { "$ref": "#/definitions/hexColor" },
+        "priceBadgeFg": { "$ref": "#/definitions/hexColor" }
+      }
+    },
+    "hero": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kicker", "title", "artUrl", "sponsorLabel", "sponsorLogoUrl"],
+      "properties": {
+        "kicker": { "type": "string" },
+        "title": { "type": "string" },
+        "artUrl": {
+          "type": "string",
+          "pattern": "^$|^https://raw\\.githubusercontent\\.com/metavisionrs/.+$",
+          "description": "Empty string = no hero art. Otherwise https on the allowlisted host only."
+        },
+        "artIsLottie": {
+          "type": "boolean",
+          "description": "OPTIONAL — absent in most library files; defaults to false in the app."
+        },
+        "sponsorLabel": { "type": "string" },
+        "sponsorLogoUrl": { "$ref": "#/definitions/httpsUrlOrNull" }
+      }
+    },
+    "festivalTab": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "iconUrl", "isNew"],
+      "properties": {
+        "label": { "type": "string" },
+        "iconUrl": { "$ref": "#/definitions/httpsUrlOrNull" },
+        "isNew": { "type": "boolean" }
+      }
+    },
+    "searchHints": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "banner": {
+      "type": "object",
+      "description": "OPTIONAL — absent in most library files.",
+      "additionalProperties": false,
+      "required": ["title", "subtitle", "ctaLabel"],
+      "properties": {
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "ctaLabel": { "type": "string" }
+      }
+    },
+    "collections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "imageUrl", "badge", "query", "featured"],
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "imageUrl": { "$ref": "#/definitions/httpsUrlOrNull" },
+          "badge": {
+            "oneOf": [
+              { "type": "null" },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["mrp", "price"],
+                "properties": {
+                  "mrp": { "type": "number", "exclusiveMinimum": 0 },
+                  "price": { "type": "number", "exclusiveMinimum": 0 }
+                }
+              }
+            ]
+          },
+          "query": { "type": "string", "minLength": 1, "maxLength": 64 },
+          "featured": { "type": "boolean" }
+        }
+      }
+    },
+    "rfwTemplateUrl": { "$ref": "#/definitions/httpsUrlOrNull" }
+  },
+  "definitions": {
+    "hexColor": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$"
+    },
+    "isoDateTime": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}([+-]\\d{2}:\\d{2}|Z)$"
+    },
+    "httpsUrlOrNull": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "string",
+          "pattern": "^https://raw\\.githubusercontent\\.com/metavisionrs/.+$"
+        }
+      ]
+    }
+  }
+}

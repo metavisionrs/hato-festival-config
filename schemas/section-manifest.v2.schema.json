@@ -1,0 +1,296 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/schemas/section-manifest.v2.schema.json",
+  "title": "HATO Festival Section Manifest (schema v2, level 2)",
+  "description": "Common envelope, identical for every section. blocks[] is the only section-specific part; the renderer (and this schema) tolerates UNKNOWN block types for forward compatibility — known types are validated via conditional subschemas.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "section", "revision"],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "section": {
+      "type": "string",
+      "enum": ["home", "food", "grocery", "ride", "parcel", "carpool"],
+      "description": "Must match this manifest's slot in the master sections map AND its filename."
+    },
+    "revision": { "type": "integer", "minimum": 1 },
+    "theme": { "$ref": "#/definitions/themeV2" },
+    "hero": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "kicker": { "type": "string" },
+        "title": { "type": "string" },
+        "art": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/definitions/remoteCampaignAsset" }
+          ]
+        },
+        "sponsor": { "$ref": "#/definitions/sponsor" }
+      }
+    },
+    "banner": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title"],
+      "properties": {
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "cta": { "$ref": "#/definitions/cta" }
+      }
+    },
+    "searchHints": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "copy": {
+      "type": "object",
+      "description": "Localized copy map: locale code → { key → string }. en is the fallback locale and SHOULD always be present.",
+      "propertyNames": { "pattern": "^[a-z]{2}(-[A-Z]{2})?$" },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": { "type": "string" }
+      }
+    },
+    "blocks": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/block" }
+    },
+    "rfwTemplateUrl": {
+      "oneOf": [
+        { "type": "null" },
+        { "$ref": "#/definitions/allowlistedHttpsUrl" }
+      ]
+    }
+  },
+  "definitions": {
+    "hexColor": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+    "allowlistedHttpsUrl": {
+      "type": "string",
+      "pattern": "^https://raw\\.githubusercontent\\.com/metavisionrs/.+$"
+    },
+    "themeV2": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "PARTIAL override — merges over the master theme.",
+      "properties": {
+        "background": { "$ref": "#/definitions/hexColor" },
+        "surface": { "$ref": "#/definitions/hexColor" },
+        "surfaceElevated": { "$ref": "#/definitions/hexColor" },
+        "header": { "$ref": "#/definitions/hexColor" },
+        "accent": { "$ref": "#/definitions/hexColor" },
+        "accentSecondary": { "$ref": "#/definitions/hexColor" },
+        "title": { "$ref": "#/definitions/hexColor" },
+        "body": { "$ref": "#/definitions/hexColor" },
+        "mutedText": { "$ref": "#/definitions/hexColor" },
+        "divider": { "$ref": "#/definitions/hexColor" },
+        "heroGradientStart": { "$ref": "#/definitions/hexColor" },
+        "heroGradientEnd": { "$ref": "#/definitions/hexColor" },
+        "ctaBackground": { "$ref": "#/definitions/hexColor" },
+        "ctaForeground": { "$ref": "#/definitions/hexColor" },
+        "badgeBackground": { "$ref": "#/definitions/hexColor" },
+        "badgeForeground": { "$ref": "#/definitions/hexColor" }
+      }
+    },
+    "sponsor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["enabled", "label", "name"],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "label": { "type": "string" },
+        "name": { "type": "string" },
+        "logoUrl": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/definitions/allowlistedHttpsUrl" }
+          ]
+        },
+        "disclosure": { "type": "string" }
+      }
+    },
+    "cta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "target"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "target": {
+          "type": "string",
+          "enum": ["home", "food", "grocery", "ride", "parcel", "carpool", "profile", "orders", "support"],
+          "description": "CTA target allowlist — anything else renders disabled/hidden. External links are NOT supported in v2."
+        },
+        "query": {
+          "type": "string",
+          "maxLength": 64,
+          "pattern": "^(?!.*(://|[jJ]avascript:)).*$",
+          "description": "Plain search string only — no URLs, max 64 chars."
+        }
+      }
+    },
+    "remoteCampaignAsset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "url"],
+      "description": "The ONLY way a campaign references media (REMOTE_ASSET_POLICY.md). HTTPS + allowlisted host enforced here and by FestivalAssetLoader.",
+      "properties": {
+        "type": { "type": "string", "enum": ["lottie", "webp", "gif", "png", "jpeg"] },
+        "url": { "$ref": "#/definitions/allowlistedHttpsUrl" },
+        "fallbackAsset": { "type": ["string", "null"] },
+        "aspectRatio": { "type": "number", "exclusiveMinimum": 0 },
+        "fit": { "type": "string", "enum": ["contain", "cover"] },
+        "maxBytes": { "type": "integer", "minimum": 1, "maximum": 2097152 },
+        "sha256": {
+          "oneOf": [
+            { "type": "null" },
+            { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+          ]
+        },
+        "loop": { "type": "boolean" },
+        "autoplay": { "type": "boolean" },
+        "semanticLabelKey": { "type": "string" },
+        "reducedMotionFallback": {
+          "oneOf": [
+            { "type": "null" },
+            { "$ref": "#/definitions/allowlistedHttpsUrl" }
+          ],
+          "description": "Static asset used under reduced motion; strongly recommended for lottie/gif (absent → first-frame/hide)."
+        }
+      }
+    },
+    "block": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "type": "string", "minLength": 1 }
+      },
+      "description": "Unknown types are tolerated (additionalProperties open + no closed enum on type); known types get shape validation below.",
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "collectionTile" } } },
+          "then": {
+            "required": ["title", "query"],
+            "properties": {
+              "title": { "type": "string", "minLength": 1 },
+              "image": { "oneOf": [{ "type": "null" }, { "$ref": "#/definitions/remoteCampaignAsset" }] },
+              "badge": {
+                "oneOf": [
+                  { "type": "null" },
+                  {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": ["mrp", "price"],
+                    "properties": {
+                      "mrp": { "type": "number", "exclusiveMinimum": 0 },
+                      "price": { "type": "number", "exclusiveMinimum": 0 }
+                    }
+                  }
+                ]
+              },
+              "query": { "type": "string", "minLength": 1, "maxLength": 64 },
+              "featured": { "type": "boolean" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "cuisineCollection" } } },
+          "then": {
+            "required": ["title", "query"],
+            "properties": {
+              "title": { "type": "string", "minLength": 1 },
+              "image": { "oneOf": [{ "type": "null" }, { "$ref": "#/definitions/remoteCampaignAsset" }] },
+              "query": { "type": "string", "minLength": 1, "maxLength": 64 }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "offerStrip" } } },
+          "then": {
+            "required": ["text"],
+            "properties": { "text": { "type": "string", "minLength": 1 } }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "destinationShortcut" } } },
+          "then": {
+            "required": ["label", "searchText"],
+            "properties": {
+              "label": { "type": "string", "minLength": 1 },
+              "searchText": { "type": "string", "minLength": 1, "maxLength": 64 }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "safetyBanner" } } },
+          "then": {
+            "required": ["text"],
+            "properties": { "text": { "type": "string", "minLength": 1 } }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "giftIdea" } } },
+          "then": {
+            "required": ["title"],
+            "properties": {
+              "title": { "type": "string", "minLength": 1 },
+              "image": { "oneOf": [{ "type": "null" }, { "$ref": "#/definitions/remoteCampaignAsset" }] },
+              "copy": { "type": "string" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "boxSizeCard" } } },
+          "then": {
+            "required": ["title", "copy"],
+            "properties": {
+              "title": { "type": "string", "minLength": 1 },
+              "copy": { "type": "string" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "eventRoute" } } },
+          "then": {
+            "required": ["label", "from", "to"],
+            "properties": {
+              "label": { "type": "string", "minLength": 1 },
+              "from": { "type": "string", "minLength": 1 },
+              "to": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "emptyStateCopy" } } },
+          "then": {
+            "required": ["text"],
+            "properties": { "text": { "type": "string", "minLength": 1 } }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "promoBanner" } } },
+          "then": {
+            "required": ["asset"],
+            "properties": {
+              "asset": { "$ref": "#/definitions/remoteCampaignAsset" },
+              "cta": { "$ref": "#/definitions/cta" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "festivalMessage" } } },
+          "then": {
+            "required": ["copyKey"],
+            "properties": {
+              "copyKey": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Key into the section's localized copy map."
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
