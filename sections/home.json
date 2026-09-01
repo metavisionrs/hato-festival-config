@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "section": "home",
-  "revision": 2,
+  "revision": 3,
   "theme": {
     "header": "#0B1B4D",
     "heroGradientStart": "#0B1B4D",
@@ -13,17 +13,17 @@
     "kicker": "MAKHAN CHOR DAYS",
     "title": "Janmashtami",
     "art": {
-      "type": "lottie",
-      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/krishna_matki.json",
+      "type": "gif",
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/assets/janmashtami_hero.gif",
       "fallbackAsset": null,
-      "aspectRatio": 1.6,
+      "aspectRatio": 1.0,
       "fit": "contain",
-      "maxBytes": 524288,
+      "maxBytes": 2097152,
       "sha256": null,
       "loop": true,
       "autoplay": true,
       "semanticLabelKey": "hero_art",
-      "reducedMotionFallback": null
+      "reducedMotionFallback": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/assets/janmashtami_hero_static.png"
     },
     "sponsor": {
       "enabled": true,
