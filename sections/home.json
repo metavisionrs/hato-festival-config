@@ -1,8 +1,14 @@
 {
   "schemaVersion": 2,
   "section": "home",
-  "revision": 1,
-  "theme": {},
+  "revision": 2,
+  "theme": {
+    "header": "#0B1B4D",
+    "heroGradientStart": "#0B1B4D",
+    "heroGradientEnd": "#22398C",
+    "title": "#FFC93C",
+    "accent": "#0E8098"
+  },
   "hero": {
     "kicker": "MAKHAN CHOR DAYS",
     "title": "Janmashtami",
@@ -36,7 +42,11 @@
       "query": "dahi handi"
     }
   },
-  "searchHints": ["makhan mishri", "dahi handi", "vrat snacks"],
+  "searchHints": [
+    "makhan mishri",
+    "dahi handi",
+    "vrat snacks"
+  ],
   "copy": {
     "en": {
       "greeting": "Happy Janmashtami!",
