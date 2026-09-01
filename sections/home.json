@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "section": "home",
-  "revision": 5,
+  "revision": 6,
   "theme": {
     "header": "#0B1B4D",
     "heroGradientStart": "#2A0845",
@@ -14,16 +14,16 @@
     "title": "Janmashtami",
     "art": {
       "type": "gif",
-      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/assets/janmashtami_hero_v2.gif",
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/assets/hato_hands.gif",
       "fallbackAsset": null,
-      "aspectRatio": 1.0,
+      "aspectRatio": 1.6,
       "fit": "contain",
       "maxBytes": 2097152,
       "sha256": null,
       "loop": true,
       "autoplay": true,
       "semanticLabelKey": "hero_art",
-      "reducedMotionFallback": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/assets/janmashtami_hero_static.png"
+      "reducedMotionFallback": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/assets/hato_hands_static.png"
     },
     "sponsor": {
       "enabled": true,
