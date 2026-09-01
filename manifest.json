@@ -18,7 +18,7 @@
   "hero": {
     "kicker": "CELEBRATE",
     "title": "Janmashtami",
-    "artUrl": "https://raw.githubusercontent.com/AnuragCsharp/hato-festival-config/main/krishna_matki.json",
+    "artUrl": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/krishna_matki.json",
     "artIsLottie": true,
     "sponsorLabel": "POWERED BY HATO",
     "sponsorLogoUrl": null

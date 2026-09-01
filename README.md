@@ -16,7 +16,7 @@ Edit it → commit → the change is live for all users on their next Grocery vi
 Raw URL served to the app (via `FESTIVAL_MANIFEST_URL` dart-define):
 
 ```
-https://raw.githubusercontent.com/AnuragCsharp/hato-festival-config/main/manifest.json
+https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/manifest.json
 ```
 
 ## ✅ Safety rails (built into the app)
