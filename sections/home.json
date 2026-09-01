@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "section": "home",
-  "revision": 3,
+  "revision": 4,
   "theme": {
     "header": "#0B1B4D",
     "heroGradientStart": "#0B1B4D",
@@ -14,7 +14,7 @@
     "title": "Janmashtami",
     "art": {
       "type": "gif",
-      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/assets/janmashtami_hero.gif",
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/assets/janmashtami_hero_v2.gif",
       "fallbackAsset": null,
       "aspectRatio": 1.0,
       "fit": "contain",
