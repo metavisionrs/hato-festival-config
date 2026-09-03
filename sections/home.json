@@ -1,13 +1,13 @@
 {
   "schemaVersion": 2,
   "section": "home",
-  "revision": 9,
+  "revision": 10,
   "theme": {
-    "header": "#F45B08",
-    "heroGradientStart": "#F45B08",
-    "heroGradientEnd": "#D7263D",
+    "header": "#0E1E6B",
+    "heroGradientStart": "#123FA6",
+    "heroGradientEnd": "#12A5A0",
     "title": "#FFFFFF",
-    "accent": "#D7263D"
+    "accent": "#FFB300"
   },
   "hero": {
     "kicker": "MAKHAN CHOR DAYS",
