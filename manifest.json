@@ -1,86 +1,86 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "campaignId": "janmashtami_2026_v3_midnight",
-  "name": "Janmashtami",
-  "startsAt": "2026-08-25T00:00:00+05:30",
-  "endsAt": "2026-09-06T23:59:59+05:30",
+  "campaignId": "teachers_day_2026_v1",
+  "name": "Teachers' Day",
+  "startsAt": "2026-09-05T00:00:00+05:30",
+  "endsAt": "2026-09-08T23:59:59+05:30",
   "theme": {
-    "headerColor": "#0B1B4D",
-    "heroGradientTop": "#EAF1FF",
-    "heroGradientBottom": "#C9DCFB",
-    "tileBackground": "#E1EBFC",
-    "accent": "#0E8098",
-    "titleColor": "#0B1B4D",
-    "priceBadgeBg": "#FFC93C",
-    "priceBadgeFg": "#1A2455"
+    "headerColor": "#152159",
+    "heroGradientTop": "#EAF0FF",
+    "heroGradientBottom": "#C9D6F5",
+    "tileBackground": "#F3ECD9",
+    "accent": "#E0A417",
+    "titleColor": "#152159",
+    "priceBadgeBg": "#E0A417",
+    "priceBadgeFg": "#2A1C00"
   },
   "hero": {
-    "kicker": "MAKHAN CHOR DAYS",
-    "title": "Janmashtami",
-    "artUrl": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/krishna_matki.json",
-    "artIsLottie": true,
+    "kicker": "GURU VANDANA",
+    "title": "Happy Teachers' Day",
+    "artUrl": "",
+    "artIsLottie": false,
     "sponsorLabel": "POWERED BY HATO",
     "sponsorLogoUrl": null
   },
   "festivalTab": {
-    "label": "Janmashtami",
+    "label": "Teachers' Day",
     "iconUrl": null,
     "isNew": true
   },
   "searchHints": [
-    "makhan mishri",
-    "dahi handi",
-    "vrat snacks",
-    "morpankh mukut",
-    "panjiri"
+    "gift for teacher",
+    "sweets box",
+    "greeting card",
+    "flowers bouquet",
+    "chocolates"
   ],
   "banner": {
-    "title": "Makhan Chor Aa Gaya!",
-    "subtitle": "Dahi-handi essentials, vrat food & mandir\nrides — HATO sab sambhal lega.",
-    "ctaLabel": "Celebrate Now"
+    "title": "Say Thank You, Teacher!",
+    "subtitle": "Sweets, cards, flowers & gifts to honour your\nfavourite guru — HATO delivers the gratitude.",
+    "ctaLabel": "Shop Gifts"
   },
   "collections": [
     {
-      "title": "Dahi Handi Essentials 🥛",
+      "title": "Thank-You Sweets & Mithai 🍬",
       "imageUrl": null,
-      "badge": { "mrp": 299, "price": 199 },
-      "query": "dahi handi",
+      "badge": { "mrp": 349, "price": 249 },
+      "query": "sweets mithai box",
       "featured": true
     },
     {
-      "title": "Makhan, Mishri & Bhog 🧈",
+      "title": "Cards & Greetings 💌",
       "imageUrl": null,
       "badge": null,
-      "query": "prasad makhan mishri",
+      "query": "greeting card",
       "featured": false
     },
     {
-      "title": "Vrat Special — Falahar 🍌",
+      "title": "Fresh Flowers & Bouquets 💐",
       "imageUrl": null,
-      "badge": { "mrp": 199, "price": 149 },
-      "query": "vrat fasting food",
+      "badge": { "mrp": 299, "price": 199 },
+      "query": "flowers bouquet",
       "featured": false
     },
     {
-      "title": "Kanha's Poshak & Mukut 👑",
+      "title": "Chocolates & Gift Hampers 🎁",
       "imageUrl": null,
-      "badge": { "mrp": 499, "price": 279 },
-      "query": "laddu gopal poshak",
+      "badge": { "mrp": 499, "price": 329 },
+      "query": "chocolate gift hamper",
       "featured": false
     },
     {
-      "title": "Morpankh & Mandir Decor 🦚",
+      "title": "Stationery for the Staff Room ✏️",
       "imageUrl": null,
-      "badge": { "mrp": 249, "price": 169 },
-      "query": "pooja decor morpankh",
+      "badge": { "mrp": 199, "price": 129 },
+      "query": "pens notebook stationery",
       "featured": false
     },
     {
-      "title": "Midnight Peda & Sweets 🍬",
+      "title": "Tea, Coffee & Snacks ☕",
       "imageUrl": null,
-      "badge": { "mrp": 349, "price": 249 },
-      "query": "peda sweets",
+      "badge": { "mrp": 249, "price": 179 },
+      "query": "tea coffee snacks",
       "featured": false
     }
   ],

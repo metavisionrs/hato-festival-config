@@ -1,11 +1,11 @@
 {
   "schemaVersion": 2,
   "section": "home",
-  "revision": 1,
+  "revision": 2,
   "theme": {
     "header": "#152159",
-    "heroGradientStart": "#1E2E63",
-    "heroGradientEnd": "#3E5AA8",
+    "heroGradientStart": "#14204F",
+    "heroGradientEnd": "#6A4FA3",
     "title": "#FFFFFF",
     "accent": "#E0A417"
   },

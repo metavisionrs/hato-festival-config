@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": 4,
+  "revision": 5,
   "campaignId": "teachers_day_2026_v1",
   "name": "Teachers' Day",
   "enabled": true,
@@ -18,8 +18,8 @@
     "body": "#2A2A2A",
     "mutedText": "#5A6488",
     "divider": "#E5DCC4",
-    "heroGradientStart": "#1E2E63",
-    "heroGradientEnd": "#3E5AA8",
+    "heroGradientStart": "#14204F",
+    "heroGradientEnd": "#6A4FA3",
     "ctaBackground": "#152159",
     "ctaForeground": "#FFD75A",
     "badgeBackground": "#E0A417",
