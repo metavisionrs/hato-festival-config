@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 2,
+  "section": "home",
+  "revision": 1,
+  "theme": {
+    "header": "#152159",
+    "heroGradientStart": "#1E2E63",
+    "heroGradientEnd": "#3E5AA8",
+    "title": "#FFFFFF",
+    "accent": "#E0A417"
+  },
+  "hero": {
+    "kicker": "GURU VANDANA",
+    "title": "Happy Teachers' Day",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Say Thank You, Teacher!",
+    "subtitle": "Gifts, sweets & rides for the ones who taught you everything — HATO delivers your gratitude.",
+    "cta": {
+      "label": "Send a Gift",
+      "target": "grocery",
+      "query": "teachers day gift"
+    }
+  },
+  "searchHints": [
+    "teachers day gift",
+    "flowers bouquet",
+    "greeting card",
+    "chocolates"
+  ],
+  "copy": {
+    "en": {
+      "greeting": "Happy Teachers' Day!",
+      "festival_message": "This Teachers' Day, HATO helps you say thank you — flowers to the staffroom, cake for the class, a ride to visit Ma'am or Sir, and gifts to their doorstep. Gratitude, delivered.",
+      "promo_banner_label": "Teachers' Day with HATO"
+    },
+    "hi": {
+      "greeting": "शिक्षक दिवस की शुभकामनाएं!",
+      "festival_message": "इस शिक्षक दिवस HATO के साथ कहें धन्यवाद — स्टाफरूम तक फूल, क्लास के लिए केक, गुरुजी से मिलने की सवारी और घर तक तोहफे। आभार, आपके द्वार।",
+      "promo_banner_label": "HATO के संग शिक्षक दिवस"
+    }
+  },
+  "blocks": [
+    {
+      "type": "festivalMessage",
+      "copyKey": "festival_message"
+    }
+  ],
+  "rfwTemplateUrl": null
+}

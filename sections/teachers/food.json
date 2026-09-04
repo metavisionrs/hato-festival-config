@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "section": "food",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "STAFFROOM TREATS",
+    "title": "Teachers' Day Feasts",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Treat your teacher",
+    "subtitle": "Cakes, snacks & chai for the whole staffroom — order for the celebration.",
+    "cta": {
+      "label": "Order Treats",
+      "target": "food",
+      "query": "celebration cake"
+    }
+  },
+  "searchHints": ["celebration cake", "chai samosa", "sweets", "snacks platter"],
+  "copy": {
+    "en": {
+      "greeting": "Celebrating in the staffroom today?",
+      "offer_note": "Teachers' Day menus from your favourite kitchens."
+    },
+    "hi": {
+      "greeting": "आज स्टाफरूम में जश्न?",
+      "offer_note": "आपकी पसंदीदा रसोइयों से शिक्षक दिवस मेन्यू।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "cuisineCollection",
+      "title": "Celebration Cakes",
+      "image": null,
+      "query": "celebration cake"
+    },
+    {
+      "type": "cuisineCollection",
+      "title": "Chai & Samosa Combos",
+      "image": null,
+      "query": "chai samosa"
+    },
+    {
+      "type": "offerStrip",
+      "text": "Sweet treats for the whole staffroom — order for Teachers' Day."
+    }
+  ],
+  "rfwTemplateUrl": null
+}

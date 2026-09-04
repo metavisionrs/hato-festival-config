@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "section": "ride",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "SCHOOL RUN",
+    "title": "Rides to School",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Heading to school or college?",
+    "subtitle": "Book a comfortable ride to visit your favourite teacher today.",
+    "cta": {
+      "label": "Book a Ride",
+      "target": "ride",
+      "query": "school"
+    }
+  },
+  "searchHints": ["school", "college campus", "alumni meet"],
+  "copy": {
+    "en": {
+      "greeting": "Visit your teacher today.",
+      "safety_note": "Plan your ride early — school gates get busy around events."
+    },
+    "hi": {
+      "greeting": "आज अपने गुरुजी से मिलने जाएं।",
+      "safety_note": "सवारी पहले से बुक करें — आयोजनों के समय स्कूल गेट पर भीड़ रहती है।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "destinationShortcut",
+      "label": "Your school",
+      "searchText": "school"
+    },
+    {
+      "type": "destinationShortcut",
+      "label": "College campus",
+      "searchText": "college"
+    }
+  ],
+  "rfwTemplateUrl": null
+}

@@ -1,29 +1,29 @@
 {
   "schemaVersion": 2,
-  "revision": 2,
-  "campaignId": "janmashtami_2026_v3",
-  "name": "Janmashtami",
+  "revision": 3,
+  "campaignId": "teachers_day_2026_v1",
+  "name": "Teachers' Day",
   "enabled": true,
-  "startsAt": "2026-08-25T00:00:00+05:30",
-  "endsAt": "2026-09-06T23:59:59+05:30",
+  "startsAt": "2026-09-05T00:00:00+05:30",
+  "endsAt": "2026-09-08T23:59:59+05:30",
   "minAppBuild": 48,
   "theme": {
-    "background": "#FFF7E6",
-    "surface": "#FFECC7",
+    "background": "#FBF7EC",
+    "surface": "#F3ECD9",
     "surfaceElevated": "#FFFFFF",
-    "header": "#0E1E6B",
-    "accent": "#12A5A0",
-    "accentSecondary": "#FFB300",
-    "title": "#0B1B4D",
-    "body": "#24315E",
-    "mutedText": "#6B7299",
-    "divider": "#F0DFB4",
-    "heroGradientStart": "#123FA6",
-    "heroGradientEnd": "#12A5A0",
-    "ctaBackground": "#0E1E6B",
-    "ctaForeground": "#FFD54F",
-    "badgeBackground": "#FFB300",
-    "badgeForeground": "#3E2A00"
+    "header": "#152159",
+    "accent": "#E0A417",
+    "accentSecondary": "#A8324A",
+    "title": "#152159",
+    "body": "#2A2A2A",
+    "mutedText": "#5A6488",
+    "divider": "#E5DCC4",
+    "heroGradientStart": "#1E2E63",
+    "heroGradientEnd": "#3E5AA8",
+    "ctaBackground": "#152159",
+    "ctaForeground": "#FFD75A",
+    "badgeBackground": "#E0A417",
+    "badgeForeground": "#2A1C00"
   },
   "sponsor": {
     "enabled": true,
@@ -36,27 +36,27 @@
   "sections": {
     "home": {
       "enabled": true,
-      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/home.json"
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/teachers/home.json"
     },
     "food": {
       "enabled": true,
-      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/food.json"
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/teachers/food.json"
     },
     "grocery": {
       "enabled": true,
-      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/grocery.json"
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/teachers/grocery.json"
     },
     "ride": {
       "enabled": true,
-      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/ride.json"
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/teachers/ride.json"
     },
     "parcel": {
       "enabled": true,
-      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/parcel.json"
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/teachers/parcel.json"
     },
     "carpool": {
       "enabled": true,
-      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/carpool.json"
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/teachers/carpool.json"
     }
   }
 }
