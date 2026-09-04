@@ -24,6 +24,20 @@
       "query": "mandir"
     }
   },
+  "banners": [
+    {
+      "imageUrl": "https://plain-apac-prod-public.komododecks.com/202609/04/aNrYrtSPcDL8ktcOBxmN/image.png",
+      "target": "ride"
+    },
+    {
+      "imageUrl": "https://plain-apac-prod-public.komododecks.com/202609/04/zSImXTGGHXKnkWHKpTpX/image.png",
+      "target": "ride"
+    },
+    {
+      "imageUrl": "https://plain-apac-prod-public.komododecks.com/202609/04/GCpDWmqWq2fjzrcsDCFS/image.png",
+      "target": "ride"
+    }
+  ],
   "searchHints": ["mandir", "iskcon temple", "dahi handi"],
   "copy": {
     "en": {
