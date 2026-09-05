@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "enabled": true,
+  "enabled": false,
   "campaignId": "teachers_day_2026_v1",
   "name": "Teachers' Day",
   "startsAt": "2026-09-05T00:00:00+05:30",

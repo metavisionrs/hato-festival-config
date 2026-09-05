@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "revision": 4,
+  "revision": 5,
   "campaignId": "teachers_day_2026_v1",
   "name": "Teachers' Day",
-  "enabled": true,
+  "enabled": false,
   "startsAt": "2026-09-05T00:00:00+05:30",
   "endsAt": "2026-09-08T23:59:59+05:30",
   "minAppBuild": 48,
