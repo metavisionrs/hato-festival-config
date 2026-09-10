@@ -34,6 +34,27 @@
       "gift_note": "मिठाई सीलबंद डिब्बे में पैक करें — हमारे हेल्पर पूरी सावधानी रखते हैं।"
     }
   },
+  "screens": {
+    "details": {
+      "hero": {
+        "title": "Parcel Details",
+        "art": {
+          "type": "lottie",
+          "url": "DETAILS_LOTTIE_URL"
+        }
+      },
+
+      "banner": {
+        "title": "Parcel Details",
+        "subtitle": "Tell us a few details about your parcel"
+      },
+
+      "themeTokens": {
+        "header": "#FD9108"
+      }
+    }
+  },
+
   "blocks": [
     {
       "type": "giftIdea",
