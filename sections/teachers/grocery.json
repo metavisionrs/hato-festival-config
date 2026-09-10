@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "section": "grocery",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "GIFTS & FLOWERS",
+    "title": "Gifts for Teachers",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Perfect Teacher Gifts",
+    "subtitle": "Flowers, chocolates & greeting cards delivered in minutes.",
+    "cta": {
+      "label": "Shop Gifts",
+      "target": "grocery",
+      "query": "flowers bouquet"
+    }
+  },
+  "searchHints": ["flowers bouquet", "chocolates", "greeting card", "gift hamper"],
+  "copy": {
+    "en": {
+      "greeting": "Say thanks with a thoughtful gift.",
+      "offer_note": "Teachers' Day gifts delivered today."
+    },
+    "hi": {
+      "greeting": "एक प्यारे तोहफे से कहें धन्यवाद।",
+      "offer_note": "शिक्षक दिवस के तोहफे आज ही पहुंचें।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "collectionTile",
+      "title": "Bouquets & Flowers",
+      "image": null,
+      "badge": null,
+      "query": "flowers bouquet",
+      "featured": true
+    },
+    {
+      "type": "collectionTile",
+      "title": "Chocolates & Cards",
+      "image": null,
+      "badge": null,
+      "query": "chocolates card",
+      "featured": false
+    },
+    {
+      "type": "offerStrip",
+      "text": "Say thank you with a gift delivered today."
+    }
+  ],
+  "rfwTemplateUrl": null
+}

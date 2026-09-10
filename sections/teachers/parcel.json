@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "section": "parcel",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "SEND WITH LOVE",
+    "title": "Gifts to Their Doorstep",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Send a gift to Ma'am or Sir",
+    "subtitle": "Sweets, cards & flowers delivered straight to your teacher's door.",
+    "cta": {
+      "label": "Send a Parcel",
+      "target": "parcel",
+      "query": "gift"
+    }
+  },
+  "searchHints": ["gift", "sweets box", "flowers", "greeting card"],
+  "copy": {
+    "en": {
+      "greeting": "Send your gratitude across town.",
+      "offer_note": "Doorstep delivery for Teachers' Day gifts."
+    },
+    "hi": {
+      "greeting": "अपना आभार शहर भर में भेजें।",
+      "offer_note": "शिक्षक दिवस के तोहफे घर तक पहुंचें।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "giftIdea",
+      "title": "Sweets & Mithai",
+      "image": null,
+      "copy": "A classic thank-you box for your teacher."
+    },
+    {
+      "type": "giftIdea",
+      "title": "Flowers & a Card",
+      "image": null,
+      "copy": "Say it with a handwritten note and fresh flowers."
+    }
+  ],
+  "rfwTemplateUrl": null
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "section": "carpool",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "GO TOGETHER",
+    "title": "Ride to the Reunion",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Heading to a Teachers' Day event?",
+    "subtitle": "Share a ride with classmates and split the fare to your old school.",
+    "cta": {
+      "label": "Find a Carpool",
+      "target": "carpool",
+      "query": "school reunion"
+    }
+  },
+  "searchHints": ["school reunion", "alumni meet", "college"],
+  "copy": {
+    "en": {
+      "greeting": "Go back to school, together.",
+      "offer_note": "Share the ride, share the memories."
+    },
+    "hi": {
+      "greeting": "साथ मिलकर स्कूल लौटें।",
+      "offer_note": "सवारी बांटें, यादें बांटें।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "eventRoute",
+      "label": "Alumni meetup",
+      "from": "Your area",
+      "to": "Your old school"
+    }
+  ],
+  "rfwTemplateUrl": null
+}
