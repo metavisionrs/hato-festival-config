@@ -2,7 +2,10 @@
   "schemaVersion": 2,
   "section": "carpool",
   "revision": 1,
-  "theme": {},
+  "theme": {
+    "primaryColor": null,
+    "buttonColor": null
+  },
   "hero": {
     "kicker": "SANG CHALO",
     "title": "Festival Carpools",
