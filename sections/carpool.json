@@ -4,7 +4,8 @@
   "revision": 1,
   "theme": {
     "primaryColor": null,
-    "buttonColor": null
+    "buttonColor": null,
+    "heroBackground": "#F0F5FD"
   },
   "hero": {
     "kicker": "SANG CHALO",
