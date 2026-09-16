@@ -19,6 +19,12 @@
       "disclosure": "Sponsored"
     }
   },
+  "vehicle": {
+    "title": "Your Host Vehicle",
+    "subtitle": "Tell us about the vehicle you will use for hosting",
+    "backgroundColor": "#FFF9B4",
+    "art":null
+  },
   "banner": {
     "title": "Ujjain darshan, shared ride",
     "subtitle": "Find or offer a seat for Janmashtami temple runs — split the fare, share the bhajans.",
