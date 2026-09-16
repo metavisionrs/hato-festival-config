@@ -2,6 +2,7 @@
   "schemaVersion": 2,
   "section": "home",
   "revision": 10,
+
   "theme": {
     "header": "#0E1E6B",
     "heroGradientStart": "#123FA6",
@@ -9,6 +10,7 @@
     "title": "#FFFFFF",
     "accent": "#FFB300"
   },
+
   "hero": {
     "kicker": "MAKHAN CHOR DAYS",
     "title": "Janmashtami",
@@ -21,20 +23,86 @@
       "disclosure": "Sponsored"
     }
   },
-  "banner": {
-    "title": "Makhan Chor Aa Gaya!",
-    "subtitle": "Dahi-handi essentials, vrat food & mandir rides — HATO sab sambhal lega.",
-    "cta": {
-      "label": "Celebrate Now",
-      "target": "grocery",
-      "query": "dahi handi"
-    }
+
+  "home": {
+    "banners": [
+      {
+        "id": "ride",
+        "title": "Going somewhere?",
+        "subtitle": "Safe, reliable and quick rides, whenever you need.",
+        "background": {
+          "type": "webp",
+          "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/ride-background.webp",
+          "fallbackAsset": null,
+          "aspectRatio": 1.6,
+          "fit": "cover",
+          "maxBytes": 1572864,
+          "sha256": null,
+          "loop": false,
+          "autoplay": false,
+          "semanticLabelKey": null,
+          "reducedMotionFallback": null
+        },
+        "art": {
+          "type": "webp",
+          "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/ride-car.webp",
+          "fallbackAsset": null,
+          "aspectRatio": 1.0,
+          "fit": "contain",
+          "maxBytes": 1572864,
+          "sha256": null,
+          "loop": false,
+          "autoplay": false,
+          "semanticLabelKey": "ride_banner_art",
+          "reducedMotionFallback": null
+        },
+        "cta": {
+          "label": "Book a ride",
+          "target": "ride"
+        }
+      },
+
+      {
+        "id": "everything-hato",
+        "title": "Everything you need, HATO.",
+        "subtitle": "Food, groceries, ride, parcel and more - all in one app.",
+        "background": {
+          "type": "webp",
+          "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/everything-hato-background.webp",
+          "fallbackAsset": null,
+          "aspectRatio": 1.6,
+          "fit": "cover",
+          "maxBytes": 1572864,
+          "sha256": null,
+          "loop": false,
+          "autoplay": false,
+          "semanticLabelKey": null,
+          "reducedMotionFallback": null
+        },
+        "art": {
+          "type": "webp",
+          "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/everything-hato-art.webp",
+          "fallbackAsset": null,
+          "aspectRatio": 1.0,
+          "fit": "contain",
+          "maxBytes": 1572864,
+          "sha256": null,
+          "loop": false,
+          "autoplay": false,
+          "semanticLabelKey": "everything_hato_banner_art",
+          "reducedMotionFallback": null
+        },
+        "cta": null
+      }
+    ]
   },
+
   "searchHints": [
     "makhan mishri",
     "dahi handi",
     "vrat snacks"
   ],
+
   "copy": {
     "en": {
       "greeting": "Happy Janmashtami!",
@@ -47,6 +115,7 @@
       "promo_banner_label": "HATO के संग जन्माष्टमी"
     }
   },
+
   "blocks": [
     {
       "type": "promoBanner",
@@ -74,5 +143,6 @@
       "copyKey": "festival_message"
     }
   ],
+
   "rfwTemplateUrl": null
 }
