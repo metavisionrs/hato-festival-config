@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "section": "carpool",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "THE DAY IS PINK",
+    "title": "Share the Pink Ride",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Better together",
+    "subtitle": "Split the fare, share the road — and today, share a little pink too.",
+    "cta": {
+      "label": "Carpool in Pink",
+      "target": "carpool",
+      "query": "carpool"
+    }
+  },
+  "searchHints": ["office route", "daily commute", "weekend trip", "college"],
+  "copy": {
+    "en": {
+      "greeting": "Pool pink today!",
+      "safety_note": "Verified co-riders, shared savings."
+    },
+    "hi": {
+      "greeting": "आज गुलाबी कारपूल!",
+      "safety_note": "सत्यापित सह-यात्री, साझा बचत।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "safetyBanner",
+      "text": "Verified co-riders and shared savings on every pool."
+    }
+  ],
+  "rfwTemplateUrl": null
+}

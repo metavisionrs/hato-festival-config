@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "section": "ride",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "THE DAY IS PINK",
+    "title": "Ride in the Pink",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Where to, today?",
+    "subtitle": "Same quick rides, dressed in a little pink. Hop on and go.",
+    "cta": {
+      "label": "Book in Pink",
+      "target": "ride",
+      "query": "ride"
+    }
+  },
+  "searchHints": ["home", "work", "railway station", "airport"],
+  "copy": {
+    "en": {
+      "greeting": "Ride pink today!",
+      "safety_note": "Verified drivers, live tracking — always."
+    },
+    "hi": {
+      "greeting": "आज गुलाबी सवारी!",
+      "safety_note": "सत्यापित ड्राइवर, लाइव ट्रैकिंग — हमेशा।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "safetyBanner",
+      "text": "Verified drivers & live tracking on every ride."
+    }
+  ],
+  "rfwTemplateUrl": null
+}

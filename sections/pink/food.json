@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 2,
+  "section": "food",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "THE DAY IS PINK",
+    "title": "Pretty in Pink Plates",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Crave something rosy?",
+    "subtitle": "Strawberry shakes, rose falooda, beetroot everything — treat yourself to a pink bite today.",
+    "cta": {
+      "label": "Order in Pink",
+      "target": "food",
+      "query": "strawberry"
+    }
+  },
+  "searchHints": ["strawberry shake", "rose falooda", "pink sauce pasta", "red velvet"],
+  "copy": {
+    "en": {
+      "greeting": "Eat pink today!",
+      "offer_note": "Rosy picks, delivered warm."
+    },
+    "hi": {
+      "greeting": "आज गुलाबी खाइए!",
+      "offer_note": "गुलाबी पसंद, गरमागरम पहुंचे।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "cuisineCollection",
+      "title": "Strawberry Treats",
+      "image": null,
+      "query": "strawberry"
+    },
+    {
+      "type": "cuisineCollection",
+      "title": "Rose & Falooda",
+      "image": null,
+      "query": "rose falooda"
+    }
+  ],
+  "rfwTemplateUrl": null
+}
