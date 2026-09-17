@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 2,
+  "section": "parcel",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "THE DAY IS PINK",
+    "title": "Parcels in the Pink",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Send it in style",
+    "subtitle": "Your parcels, delivered as fast as ever — just a touch more pink today.",
+    "cta": {
+      "label": "Send in Pink",
+      "target": "parcel",
+      "query": "parcel"
+    }
+  },
+  "searchHints": ["send documents", "small package", "food delivery", "gift"],
+  "copy": {
+    "en": {
+      "greeting": "Send pink today!",
+      "safety_note": "Live tracking from pickup to drop, every parcel."
+    },
+    "hi": {
+      "greeting": "आज गुलाबी भेजिए!",
+      "safety_note": "पिकअप से ड्रॉप तक लाइव ट्रैकिंग, हर पार्सल।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "safetyBanner",
+      "text": "Live tracking from pickup to drop on every parcel."
+    }
+  ],
+  "rfwTemplateUrl": null
+}

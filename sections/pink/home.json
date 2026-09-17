@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 2,
+  "section": "home",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "THE DAY IS PINK",
+    "title": "Everything's Pink Today",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Feeling rosy?",
+    "subtitle": "We've splashed a little pink across HATO today — rides, parcels, food & more, all in the pink of health.",
+    "cta": {
+      "label": "Explore in Pink",
+      "target": "grocery",
+      "query": "pink"
+    }
+  },
+  "searchHints": [
+    "pink roses",
+    "strawberry",
+    "rose milk",
+    "pink gifts"
+  ],
+  "copy": {
+    "en": {
+      "greeting": "The Day is Pink!",
+      "festival_message": "Today HATO is dressed in pink — a soft, rosy makeover across the whole app. Same rides, same parcels, same speed — just a little more blush. Enjoy the pink!",
+      "promo_banner_label": "The Day is Pink with HATO"
+    },
+    "hi": {
+      "greeting": "आज का दिन गुलाबी है!",
+      "festival_message": "आज HATO गुलाबी रंग में सजा है — पूरे ऐप में एक कोमल, गुलाबी बदलाव। वही सवारी, वही पार्सल, वही रफ़्तार — बस थोड़ा और गुलाबी। गुलाबी दिन का आनंद लें!",
+      "promo_banner_label": "HATO के संग गुलाबी दिन"
+    }
+  },
+  "blocks": [
+    {
+      "type": "festivalMessage",
+      "copyKey": "festival_message"
+    }
+  ],
+  "rfwTemplateUrl": null
+}

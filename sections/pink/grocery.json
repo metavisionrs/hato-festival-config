@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "section": "grocery",
+  "revision": 1,
+  "theme": {},
+  "hero": {
+    "kicker": "THE DAY IS PINK",
+    "title": "The Pink Aisle",
+    "art": null,
+    "sponsor": {
+      "enabled": true,
+      "label": "POWERED BY",
+      "name": "HATO",
+      "logoUrl": null,
+      "disclosure": "Sponsored"
+    }
+  },
+  "banner": {
+    "title": "Stock up in pink",
+    "subtitle": "Rose water, strawberries, beetroot, pink salt — the blushiest basket in town.",
+    "cta": {
+      "label": "Shop Pink",
+      "target": "grocery",
+      "query": "strawberry"
+    }
+  },
+  "searchHints": ["strawberries", "rose water", "beetroot", "pink salt"],
+  "copy": {
+    "en": {
+      "greeting": "A basket full of blush.",
+      "offer_note": "Fresh pink picks to your door."
+    },
+    "hi": {
+      "greeting": "गुलाबी से भरी टोकरी।",
+      "offer_note": "ताज़ी गुलाबी चीज़ें आपके द्वार।"
+    }
+  },
+  "blocks": [
+    {
+      "type": "collectionTile",
+      "title": "Fresh Strawberries",
+      "image": null,
+      "query": "strawberries",
+      "featured": true
+    },
+    {
+      "type": "collectionTile",
+      "title": "Rose Water",
+      "image": null,
+      "query": "rose water"
+    }
+  ],
+  "rfwTemplateUrl": null
+}
