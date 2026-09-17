@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "revision": 7,
+  "revision": 8,
   "campaignId": "the_day_is_pink_v1",
   "name": "The Day is Pink",
-  "enabled": true,
+  "enabled": false,
   "startsAt": "2026-09-17T00:00:00+05:30",
   "endsAt": "2026-09-24T23:59:59+05:30",
   "minAppBuild": 48,
