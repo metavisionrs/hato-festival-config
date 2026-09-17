@@ -58,7 +58,9 @@
         },
         "cta": {
           "label": "Book a ride",
-          "target": "ride"
+          "target": "ride",
+          "backgroundColor": "#FEFAD0",
+          "textColor": "#000000"
         }
       },
 
