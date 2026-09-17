@@ -95,6 +95,116 @@
           "reducedMotionFallback": null
         },
         "cta": null
+      },
+
+      {
+        "id": "ai-assistant",
+        "backgroundColor": "#F1F5FC",
+
+        "badge": {
+          "label": "YOUR AI ASSISTANT",
+          "backgroundColor": "#DDE7FF",
+          "textColor": "#4A5CFF",
+          "borderColor": null,
+          "icon": null,
+          "iconColor": null
+        },
+
+        "title": {
+          "text": "Ask HATO ",
+          "highlightText": "anything",
+          "textColor": "#333333",
+          "highlightColor": "#4A5CFF"
+        },
+
+        "subtitle": {
+          "text": "Food, groceries, ride, parcel and more - just speak or type, HATO is here to help.",
+          "textColor": "#333333"
+        },
+
+        "background": null,
+
+        "art": {
+          "type": "lottie",
+          "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/hato-ai-assistant.json",
+          "fallbackAsset": null,
+          "aspectRatio": 1.0,
+          "fit": "contain",
+          "maxBytes": 524288,
+          "sha256": null,
+          "loop": true,
+          "autoplay": true,
+          "semanticLabelKey": "ai_assistant_banner_art",
+          "reducedMotionFallback": null
+        },
+
+        "cta": {
+          "label": "Talk to HATO",
+          "subtitle": "Tap and speak",
+          "target": "ai_assistant",
+          "query": null,
+          "backgroundColor": "#FFFFFF",
+          "textColor": "#333333",
+          "subtitleColor": "#888888",
+          "icon": "mic",
+          "iconColor": "#FFFFFF",
+          "iconBackgroundColor": "#6275FF"
+        }
+      },
+
+      {
+        "id": "hato-pass",
+        "backgroundColor": "#DDE2F5",
+
+        "badge": {
+          "label": "HATO PASS",
+          "backgroundColor": "#DDE2F5",
+          "textColor": "#3159FF",
+          "borderColor": "#3159FF",
+          "icon": "diamond",
+          "iconColor": "#3159FF"
+        },
+
+        "title": {
+          "text": "Unlimited free ",
+          "highlightText": "deliveries",
+          "textColor": "#3159FF",
+          "highlightColor": "#333333"
+        },
+
+        "subtitle": {
+          "text": "One Pass. Many Benefits.",
+          "textColor": "#333333"
+        },
+
+        "background": null,
+
+        "art": {
+          "type": "webp",
+          "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/hato-pass-card.webp",
+          "fallbackAsset": null,
+          "aspectRatio": 1.0,
+          "fit": "contain",
+          "maxBytes": 1572864,
+          "sha256": null,
+          "loop": false,
+          "autoplay": false,
+          "semanticLabelKey": "hato_pass_banner_art",
+          "reducedMotionFallback": null
+        },
+
+        "cta": {
+          "label": "Explore Pass",
+          "subtitle": null,
+          "target": "hato_pass",
+          "query": null,
+          "backgroundColor": "#3159FF",
+          "textColor": "#FFFFFF",
+          "subtitleColor": null,
+          "icon": null,
+          "iconColor": null,
+          "iconBackgroundColor": null
+        }
       }
     ]
   },
