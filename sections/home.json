@@ -96,11 +96,9 @@
         "cta": null
       }
     ],
-
     "aiAssistant": {
       "id": "ai-assistant",
       "backgroundColor": "#F1F5FC",
-
       "badge": {
         "label": "YOUR AI ASSISTANT",
         "backgroundColor": "#DDE7FF",
@@ -109,17 +107,13 @@
         "icon": null,
         "iconColor": null
       },
-
       "title": "Ask HATO anything",
       "titleHighlight": "anything",
       "titleColor": "#333333",
       "titleHighlightColor": "#4A5CFF",
-
       "subtitle": "Food, groceries, ride, parcel and more - just speak or type, HATO is here to help.",
       "subtitleColor": "#333333",
-
       "background": null,
-
       "art": {
         "type": "lottie",
         "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/hato-ai-assistant.json",
@@ -133,7 +127,6 @@
         "semanticLabelKey": "ai_assistant_banner_art",
         "reducedMotionFallback": null
       },
-
       "cta": {
         "label": "Talk to HATO",
         "subtitle": "Tap and speak",
@@ -142,62 +135,17 @@
         "backgroundColor": "#FFFFFF",
         "textColor": "#333333",
         "subtitleColor": "#888888",
-        "icon": "mic",
-        "iconColor": "#FFFFFF",
-        "iconBackgroundColor": "#6275FF"
-      }
-    },
-
-    "hatoPass": {
-      "id": "hato-pass",
-      "backgroundColor": "#DDE2F5",
-
-      "badge": {
-        "label": "HATO PASS",
-        "backgroundColor": "#DDE2F5",
-        "textColor": "#3159FF",
-        "borderColor": "#3159FF",
-        "icon": "diamond",
-        "iconColor": "#3159FF"
-      },
-
-      "title": "Unlimited free deliveries",
-      "titleHighlight": "deliveries",
-      "titleColor": "#3159FF",
-      "titleHighlightColor": "#333333",
-
-      "subtitle": "One Pass. Many Benefits.",
-      "subtitleColor": "#333333",
-
-      "background": null,
-
-      "art": {
-        "type": "webp",
-        "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/hato-pass-card.webp",
-        "fallbackAsset": null,
-        "aspectRatio": 1.0,
-        "fit": "contain",
-        "maxBytes": 1572864,
-        "sha256": null,
-        "loop": false,
-        "autoplay": false,
-        "semanticLabelKey": "hato_pass_banner_art",
-        "reducedMotionFallback": null
-      },
-
-      "cta": {
-        "label": "Explore Pass",
-        "subtitle": null,
-        "target": "hato_pass",
-        "query": null,
-        "backgroundColor": "#3159FF",
-        "textColor": "#FFFFFF",
-        "subtitleColor": null,
         "icon": null,
-        "iconColor": null,
-        "iconBackgroundColor": null
+        "iconColor": "#FFFFFF",
+        "iconBackgroundColor": "#6275FF",
+        "iconAsset": {
+          "type": "lottie",
+          "url": "https://your-cdn.com/genie-mic.json",
+          "loop": true,
+          "autoplay": true
+        }
       }
-    }
+  }
   },
 
   "searchHints": [
