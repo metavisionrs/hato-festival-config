@@ -115,7 +115,7 @@
       "subtitleColor": "#333333",
       "background": null,
       "art": {
-        "type": "lottie",
+        "type": "image",
         "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/hato-ai-assistant.json",
         "fallbackAsset": null,
         "aspectRatio": 1.0,
@@ -145,7 +145,41 @@
           "autoplay": true
         }
       }
-  }
+  },
+    "promoCards": [
+      {
+        "id": "offers-discounts",
+        "title": "Offers & Discounts",
+        "subtitle": "Save more, everyday.",
+        "backgroundColor": "#4FDD4D",
+        "titleColor": "#FFFFFF",
+        "subtitleColor": "#333333",
+        "icon": "local_offer",
+        "iconColor": "#FFFFFF",
+        "cta": {
+          "icon": "arrow_forward",
+          "iconColor": "#F45B08",
+          "iconBackgroundColor": "#FFFFFF",
+          "target": "offers"
+        }
+      },
+      {
+        "id": "hato-pass",
+        "title": "HATO Pass",
+        "subtitle": "More benefits, more savings.",
+        "backgroundColor": "#FDC435",
+        "titleColor": "#333333",
+        "subtitleColor": "#333333",
+        "icon": "diamond",
+        "iconColor": "#333333",
+        "cta": {
+          "icon": "arrow_forward",
+          "iconColor": "#F45B08",
+          "iconBackgroundColor": "#FFFFFF",
+          "target": "hato_pass"
+        }
+      }
+    ]
   },
 
   "searchHints": [
