@@ -25,6 +25,19 @@
   },
 
   "home": {
+    "background": {
+      "type": "png",
+      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/home-curve-banner.png",
+      "fallbackAsset": "homeCurveBanner",
+      "aspectRatio": 1.6,
+      "fit": "fill",
+      "maxBytes": 1572864,
+      "sha256": null,
+      "loop": false,
+      "autoplay": false,
+      "semanticLabelKey": "home_curve_banner",
+      "reducedMotionFallback": null
+    },
     "banners": [
       {
         "id": "ride",
