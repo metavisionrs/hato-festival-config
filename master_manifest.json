@@ -1,32 +1,32 @@
 {
   "schemaVersion": 2,
-  "revision": 8,
-  "campaignId": "the_day_is_pink_v1",
-  "name": "The Day is Pink",
-  "enabled": false,
-  "startsAt": "2026-09-17T00:00:00+05:30",
-  "endsAt": "2026-09-24T23:59:59+05:30",
+  "revision": 9,
+  "campaignId": "indigo_orange_v1",
+  "name": "Indigo & Orange",
+  "enabled": true,
+  "startsAt": "2026-09-26T00:00:00+05:30",
+  "endsAt": "2026-10-31T23:59:59+05:30",
   "minAppBuild": 48,
   "theme": {
-    "background": "#FFF0F5",
-    "surface": "#FCE4EC",
+    "background": "#F4F5FB",
+    "surface": "#E8EAF6",
     "surfaceElevated": "#FFFFFF",
-    "header": "#AD1457",
-    "accent": "#E91E63",
-    "accentSecondary": "#F06292",
-    "title": "#880E4F",
-    "body": "#4A1F33",
-    "mutedText": "#8E4A63",
-    "divider": "#F8BBD0",
-    "heroGradientStart": "#AD1457",
-    "heroGradientEnd": "#EC407A",
-    "ctaBackground": "#C2185B",
+    "header": "#303F9F",
+    "accent": "#F45B08",
+    "accentSecondary": "#3F51B5",
+    "title": "#1A237E",
+    "body": "#2A2A3A",
+    "mutedText": "#6E7191",
+    "divider": "#C5CAE9",
+    "heroGradientStart": "#303F9F",
+    "heroGradientEnd": "#F45B08",
+    "ctaBackground": "#F45B08",
     "ctaForeground": "#FFFFFF",
-    "badgeBackground": "#880E4F",
+    "badgeBackground": "#303F9F",
     "badgeForeground": "#FFFFFF"
   },
   "sponsor": {
-    "enabled": true,
+    "enabled": false,
     "label": "POWERED BY",
     "name": "HATO",
     "logoUrl": null,
@@ -35,27 +35,27 @@
   "assetBaseUrl": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/assets/",
   "sections": {
     "home": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/pink/home.json"
     },
     "food": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/pink/food.json"
     },
     "grocery": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/pink/grocery.json"
     },
     "ride": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/pink/ride.json"
     },
     "parcel": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/pink/parcel.json"
     },
     "carpool": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/pink/carpool.json"
     }
   }
