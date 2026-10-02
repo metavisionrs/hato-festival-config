@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "section": "passes",
+  "revision": 1,
+  "theme": {
+    "header": "#147DE5",
+    "heroGradientStart": "#1686F5",
+    "heroGradientEnd": "#0B73D9",
+    "title": "#FFFFFF",
+    "accent": "#FF9D1C"
+  },
+  "hero": {
+    "kicker": "",
+    "title": "Unlock limitless possibilities",
+    "art": {
+      "type": "lottie",
+      "url":null,
+      "maxBytes": 524288,
+      "loop": true,
+      "autoplay": true,
+      "semanticLabelKey": "passes_hero_animation_1"
+    },
+    "background": {
+      "type": "lottie",
+      "url": null,
+      "maxBytes": 524288,
+      "loop": true,
+      "autoplay": true,
+      "semanticLabelKey": "passes_hero_animation_2"
+    }
+  },
+  "banner": {
+    "title": "Unlock limitless possibilities",
+    "subtitle": "Upgrade to HATO Plus and experience the future",
+    "cta": {
+      "label": "Proceed to Pay",
+      "backgroundColor": "#FF9D1C",
+      "textColor": "#FFFFFF"
+    }
+  },
+  "copy": {
+    "en": {
+      "passes_title": "Unlock limitless possibilities",
+      "passes_subtitle": "Upgrade to HATO Plus and experience the future"
+    }
+  }
+}
