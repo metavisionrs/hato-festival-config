@@ -27,7 +27,7 @@
   "home": {
     "background": {
       "type": "png",
-      "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/home-curve-banner.png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/green-banner.png",
       "fallbackAsset": "homeCurveBanner",
       "aspectRatio": 1.6,
       "fit": "fill",
