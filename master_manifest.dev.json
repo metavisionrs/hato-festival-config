@@ -11,7 +11,7 @@
     "background": "#FBF7EC",
     "surface": "#F3ECD9",
     "surfaceElevated": "#FFFFFF",
-    "header": "#152159",
+    "header": null,
     "accent": "#E0A417",
     "accentSecondary": "#A8324A",
     "title": "#152159",
