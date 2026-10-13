@@ -39,23 +39,23 @@
       "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/home.json"
     },
     "food": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/teachers/food.json"
     },
     "grocery": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/teachers/grocery.json"
     },
     "ride": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/teachers/ride.json"
     },
     "parcel": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/teachers/parcel.json"
     },
     "carpool": {
-      "enabled": true,
+      "enabled": false,
       "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/sections/teachers/carpool.json"
     }
   }
