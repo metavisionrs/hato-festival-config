@@ -65,19 +65,7 @@
           "semanticLabelKey": null,
           "reducedMotionFallback": null
         },
-        "art": {
-          "type": "webp",
-          "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/ride-car.webp",
-          "fallbackAsset": null,
-          "aspectRatio": 1.0,
-          "fit": "contain",
-          "maxBytes": 1572864,
-          "sha256": null,
-          "loop": false,
-          "autoplay": false,
-          "semanticLabelKey": "ride_banner_art",
-          "reducedMotionFallback": null
-        },
+        "art": null,
         "cta": {
           "label": "Book a ride",
           "target": "ride",
@@ -102,19 +90,7 @@
           "semanticLabelKey": null,
           "reducedMotionFallback": null
         },
-        "art": {
-          "type": "webp",
-          "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/everything-hato-art.webp",
-          "fallbackAsset": null,
-          "aspectRatio": 1.0,
-          "fit": "contain",
-          "maxBytes": 1572864,
-          "sha256": null,
-          "loop": false,
-          "autoplay": false,
-          "semanticLabelKey": "everything_hato_banner_art",
-          "reducedMotionFallback": null
-        },
+        "art": null,
         "cta": null
       }
     ],
