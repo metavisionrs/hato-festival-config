@@ -6,7 +6,7 @@
 
 
   "theme": {
-    "header": null,
+    "header": "#210009",
     "heroGradientStart": null,
     "heroGradientEnd": null,
     "title": "#FFFFFF",
