@@ -3,23 +3,24 @@
   "section": "home",
   "revision": 11,
 
+
+
   "theme": {
-    "header": "#0E1E6B",
+    "header": null,
     "heroGradientStart": null,
     "heroGradientEnd": null,
     "title": "#FFFFFF",
-    "accent": "#FFB300",
-    "curveImage": {
-      "type": "png",
-      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/circle-green.png",
-      "fallbackAsset": "curveImage",
-      "maxBytes": 1572864,
-      "sha256": null
-    }
+    "accent": "#FFB300"
   },
   "hero": {
     "kicker": "MAKHAN CHOR DAYS",
     "title": "Janmashtami",
+    "background": {
+      "type": "png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/circle-green.png",
+      "fit": "fill",
+      "maxBytes": 1572864
+    },
     "art": null,
     "sponsor": {
       "enabled": true,
@@ -29,6 +30,8 @@
       "disclosure": "Sponsored"
     }
   },
+
+
 
   "home": {
     "background": {
