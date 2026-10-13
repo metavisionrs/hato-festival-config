@@ -5,12 +5,18 @@
 
   "theme": {
     "header": "#0E1E6B",
-    "heroGradientStart": "#123FA6",
-    "heroGradientEnd": "#12A5A0",
+    "heroGradientStart": null,
+    "heroGradientEnd": null,
     "title": "#FFFFFF",
-    "accent": "#FFB300"
+    "accent": "#FFB300",
+    "curveImage": {
+      "type": "png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/circle-green.png",
+      "fallbackAsset": "curveImage",
+      "maxBytes": 1572864,
+      "sha256": null
+    }
   },
-
   "hero": {
     "kicker": "MAKHAN CHOR DAYS",
     "title": "Janmashtami",
