@@ -159,8 +159,8 @@
     "promoCards": [
       {
         "id": "offers-discounts",
-        "title": "Offers & Discounts",
-        "subtitle": "Save more, everyday.",
+        "title": "Grocery",
+        "subtitle": "Upto 40% off",
         "backgroundColor": null,
         "gradientColors": ["#4FDD4D", "#B8F28B"],
         "titleColor": "#FFFFFF",
@@ -175,8 +175,8 @@
       },
       {
         "id": "hato-pass",
-        "title": "HATO Pass",
-        "subtitle": "More benefits, more savings.",
+        "title": "Fruits & Veg",
+        "subtitle": "Upto 20% off",
         "backgroundColor": null,
         "gradientColors": ["#FDC435", "#FFE7A0"],
         "titleColor": "#333333",
