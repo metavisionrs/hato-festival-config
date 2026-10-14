@@ -163,7 +163,7 @@
         "subtitle": "Upto 40% off",
         "backgroundColor": null,
         "gradientColors": ["#4FDD4D", "#B8F28B"],
-        "titleColor": "#FFFFFF",
+        "titleColor": "#333333",
         "subtitleColor": "#333333",
         "iconUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/image%20118.png",
         "cta": {
