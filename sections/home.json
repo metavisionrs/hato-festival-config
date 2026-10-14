@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "section": "home",
-  "revision": 11,
+  "revision": 12,
 
 
 
@@ -144,6 +144,18 @@
         }
       }
   },
+    "offersCard": {
+      "gradientColors": ["#4FDD4D", "#B8F28B"],
+      "backgroundColor": "#48D957",
+      "titleColor": "#FFFFFF",
+      "subtitleColor": "#333333"
+    },
+    "passCard": {
+      "gradientColors": ["#FDC435", "#FFE7A0"],
+      "backgroundColor": "#FFC533",
+      "titleColor": "#333333",
+      "subtitleColor": "#333333"
+    },
     "promoCards": [
       {
         "id": "offers-discounts",
