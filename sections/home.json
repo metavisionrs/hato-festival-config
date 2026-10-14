@@ -105,7 +105,7 @@
         "icon": null,
         "iconColor": null
       },
-      "title": "Ask HATO anything",
+      "title": "Ask Genie anything",
       "titleHighlight": "anything",
       "titleColor": "#333333",
       "titleHighlightColor": "#4A5CFF",
@@ -126,7 +126,7 @@
         "reducedMotionFallback": null
       },
       "cta": {
-        "label": "Talk to HATO",
+        "label": "Talk to Genie",
         "subtitle": "Tap and speak",
         "target": "ai_assistant",
         "query": null,
@@ -138,7 +138,7 @@
         "iconBackgroundColor": "#6275FF",
         "iconAsset": {
           "type": "lottie",
-          "url": "https://your-cdn.com/genie-mic.json",
+          "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/mic.json",
           "loop": true,
           "autoplay": true
         }
