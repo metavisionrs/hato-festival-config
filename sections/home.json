@@ -12,6 +12,10 @@
     "title": "#FFFFFF",
     "accent": "#FFB300"
   },
+  "header": {
+    "greetingAnimationUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/hello_greeting.json",
+    "nameTextColor": "#333333"
+  },
   "hero": {
     "kicker": "MAKHAN CHOR DAYS",
     "title": "Janmashtami",
