@@ -51,6 +51,8 @@
       "semanticLabelKey": "home_curve_banner",
       "reducedMotionFallback": null
     },
+    "categoryTextColor": "#FF0101",
+    "featuredCategoriesTextColor": "#FF0101",
     "banners": [
       {
         "id": "ride",
