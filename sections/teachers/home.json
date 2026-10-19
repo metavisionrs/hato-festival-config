@@ -1,17 +1,30 @@
 {
   "schemaVersion": 2,
   "section": "home",
-  "revision": 2,
+  "revision": 12,
+
+
+
   "theme": {
-    "header": "#152159",
-    "heroGradientStart": "#14204F",
-    "heroGradientEnd": "#6A4FA3",
+    "header": null,
+    "heroGradientStart": null,
+    "heroGradientEnd": null,
     "title": "#FFFFFF",
-    "accent": "#E0A417"
+    "accent": "#FFB300"
+  },
+  "header": {
+    "greetingAnimationUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/hello_greeting.json",
+    "nameTextColor": "#333333"
   },
   "hero": {
-    "kicker": "GURU VANDANA",
-    "title": "Happy Teachers' Day",
+    "kicker": "MAKHAN CHOR DAYS",
+    "title": "Janmashtami",
+    "background": {
+      "type": "png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Ellipse%206.png",
+      "fit": "fill",
+      "maxBytes": 1572864
+    },
     "art": null,
     "sponsor": {
       "enabled": true,
@@ -21,38 +34,171 @@
       "disclosure": "Sponsored"
     }
   },
-  "banner": {
-    "title": "Say Thank You, Teacher!",
-    "subtitle": "Gifts, sweets & rides for the ones who taught you everything — HATO delivers your gratitude.",
-    "cta": {
-      "label": "Send a Gift",
-      "target": "grocery",
-      "query": "teachers day gift"
-    }
+
+
+
+  "home": {
+    "background": {
+      "type": "png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Mask%20group.png",
+      "fallbackAsset": "homeCurveBanner",
+      "aspectRatio": 1.10,
+      "fit": "contain",
+      "maxBytes": 1572864,
+      "sha256": null,
+      "loop": false,
+      "autoplay": false,
+      "semanticLabelKey": "home_curve_banner",
+      "reducedMotionFallback": null
+    },
+    "categoryTextColor": "#333333",
+    "featuredCategoriesTextColor": "#333333",
+    "banners": [
+    ],
+    "aiAssistant": {
+      "id": "ai-assistant",
+      "backgroundColor": "#F1F5FC",
+      "badge": {
+        "label": "YOUR AI ASSISTANT",
+        "backgroundColor": "#DDE7FF",
+        "textColor": "#4A5CFF",
+        "borderColor": null,
+        "icon": null,
+        "iconColor": null
+      },
+      "title": "Ask Genie anything",
+      "titleHighlight": "anything",
+      "titleColor": "#333333",
+      "titleHighlightColor": "#4A5CFF",
+      "subtitle": "Food, groceries, ride, parcel and more - just speak or type, HATO is here to help.",
+      "subtitleColor": "#333333",
+      "background": null,
+      "art": {
+        "type": "image",
+        "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/hato-ai-assistant.json",
+        "fallbackAsset": null,
+        "aspectRatio": 1.0,
+        "fit": "contain",
+        "maxBytes": 524288,
+        "sha256": null,
+        "loop": true,
+        "autoplay": true,
+        "semanticLabelKey": "ai_assistant_banner_art",
+        "reducedMotionFallback": null
+      },
+      "cta": {
+        "label": "Talk to Genie",
+        "subtitle": "Tap and speak",
+        "target": "ai_assistant",
+        "query": null,
+        "backgroundColor": "#FFFFFF",
+        "textColor": "#333333",
+        "subtitleColor": "#888888",
+        "icon": null,
+        "iconColor": "#FFFFFF",
+        "iconBackgroundColor": "#6275FF",
+        "iconAsset": {
+          "type": "lottie",
+          "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/mic.json",
+          "loop": true,
+          "autoplay": true
+        }
+      }
+    },
+    "offersCard": {
+      "gradientColors": ["#4FDD4D", "#B8F28B"],
+      "backgroundColor": "#48D957",
+      "titleColor": "#FFFFFF",
+      "subtitleColor": "#333333"
+    },
+    "passCard": {
+      "gradientColors": ["#FDC435", "#FFE7A0"],
+      "backgroundColor": "#FFC533",
+      "titleColor": "#333333",
+      "subtitleColor": "#333333"
+    },
+    "promoCards": [
+      {
+        "id": "offers-discounts",
+        "title": "Grocery",
+        "subtitle": "Upto 40% off",
+        "backgroundColor": null,
+        "gradientColors": ["#FCB5AB", "#FDE4E1"],
+        "titleColor": "#333333",
+        "subtitleColor": "#333333",
+        "iconUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/image%20118.png",
+        "cta": {
+          "icon": "arrow_forward",
+          "iconColor": "#F45B08",
+          "iconBackgroundColor": "#FFFFFF",
+          "target": "offers"
+        }
+      },
+      {
+        "id": "hato-pass",
+        "title": "Fruits & Veg",
+        "subtitle": "Upto 20% off",
+        "backgroundColor": null,
+        "gradientColors": ["#FDDE97", "#FDEFCA"],
+        "titleColor": "#333333",
+        "subtitleColor": "#333333",
+        "iconUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/image%20117.png",
+        "cta": {
+          "icon": "arrow_forward",
+          "iconColor": "#F45B08",
+          "iconBackgroundColor": "#FFFFFF",
+          "target": "hato_pass"
+        }
+      }
+    ]
   },
+
   "searchHints": [
-    "teachers day gift",
-    "flowers bouquet",
-    "greeting card",
-    "chocolates"
+    "makhan mishri",
+    "dahi handi",
+    "vrat snacks"
   ],
+
   "copy": {
     "en": {
-      "greeting": "Happy Teachers' Day!",
-      "festival_message": "This Teachers' Day, HATO helps you say thank you — flowers to the staffroom, cake for the class, a ride to visit Ma'am or Sir, and gifts to their doorstep. Gratitude, delivered.",
-      "promo_banner_label": "Teachers' Day with HATO"
+      "greeting": "Happy Janmashtami!",
+      "festival_message": "This Janmashtami, HATO handles it all — bhog groceries, vrat thalis, mandir rides and pedas home. Nand Gher Anand Bhayo!",
+      "promo_banner_label": "Janmashtami with HATO"
     },
     "hi": {
-      "greeting": "शिक्षक दिवस की शुभकामनाएं!",
-      "festival_message": "इस शिक्षक दिवस HATO के साथ कहें धन्यवाद — स्टाफरूम तक फूल, क्लास के लिए केक, गुरुजी से मिलने की सवारी और घर तक तोहफे। आभार, आपके द्वार।",
-      "promo_banner_label": "HATO के संग शिक्षक दिवस"
+      "greeting": "जन्माष्टमी की शुभकामनाएं!",
+      "festival_message": "इस जन्माष्टमी HATO सब संभालेगा — भोग की सामग्री, व्रत थाली, मंदिर की सवारी और घर तक पेड़े। नंद घेर आनंद भयो!",
+      "promo_banner_label": "HATO के संग जन्माष्टमी"
     }
   },
+
   "blocks": [
+    {
+      "type": "promoBanner",
+      "asset": {
+        "type": "lottie",
+        "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/krishna_matki.json",
+        "fallbackAsset": null,
+        "aspectRatio": 1.6,
+        "fit": "cover",
+        "maxBytes": 524288,
+        "sha256": null,
+        "loop": true,
+        "autoplay": true,
+        "semanticLabelKey": "promo_banner_label",
+        "reducedMotionFallback": null
+      },
+      "cta": {
+        "label": "Celebrate Now",
+        "target": "grocery",
+        "query": "dahi handi"
+      }
+    },
     {
       "type": "festivalMessage",
       "copyKey": "festival_message"
     }
   ],
+
   "rfwTemplateUrl": null
 }
