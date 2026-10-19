@@ -21,7 +21,7 @@
     "title": "Janmashtami",
     "background": {
       "type": "png",
-      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/circle-green.png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Ellipse%206.png",
       "fit": "fill",
       "maxBytes": 1572864
     },
@@ -40,7 +40,7 @@
   "home": {
     "background": {
       "type": "png",
-      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/green-banner.png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/dusshera.png",
       "fallbackAsset": "homeCurveBanner",
       "aspectRatio": 1.6,
       "fit": "fill",
@@ -54,51 +54,6 @@
     "categoryTextColor": "#333333",
     "featuredCategoriesTextColor": "#333333",
     "banners": [
-      {
-        "id": "ride",
-        "title": "Going somewhere?",
-        "subtitle": "Safe, reliable and quick rides, whenever you need.",
-        "background": {
-          "type": "webp",
-          "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/ride-background.webp",
-          "fallbackAsset": null,
-          "aspectRatio": 1.6,
-          "fit": "cover",
-          "maxBytes": 1572864,
-          "sha256": null,
-          "loop": false,
-          "autoplay": false,
-          "semanticLabelKey": null,
-          "reducedMotionFallback": null
-        },
-        "art": null,
-        "cta": {
-          "label": "Book a ride",
-          "target": "ride",
-          "backgroundColor": "#FEFAD0",
-          "textColor": "#000000"
-        }
-      },
-      {
-        "id": "everything-hato",
-        "title": "Everything you need, HATO.",
-        "subtitle": "Food, groceries, ride, parcel and more - all in one app.",
-        "background": {
-          "type": "webp",
-          "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/everything-hato-background.webp",
-          "fallbackAsset": null,
-          "aspectRatio": 1.6,
-          "fit": "cover",
-          "maxBytes": 1572864,
-          "sha256": null,
-          "loop": false,
-          "autoplay": false,
-          "semanticLabelKey": null,
-          "reducedMotionFallback": null
-        },
-        "art": null,
-        "cta": null
-      }
     ],
     "aiAssistant": {
       "id": "ai-assistant",
