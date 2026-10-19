@@ -43,7 +43,7 @@
       "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Mask%20group.png",
       "fallbackAsset": "homeCurveBanner",
       "aspectRatio": 1.6,
-      "fit": "fill",
+      "fit": "cover",
       "maxBytes": 1572864,
       "sha256": null,
       "loop": false,
