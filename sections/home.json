@@ -51,7 +51,7 @@
       "semanticLabelKey": "home_curve_banner",
       "reducedMotionFallback": null
     },
-    "categoryTextColor": "#FFFFFF",
+    "categoryTextColor": "#333333",
     "featuredCategoriesTextColor": "#333333",
     "banners": [
     ],
