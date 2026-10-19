@@ -40,7 +40,7 @@
   "home": {
     "background": {
       "type": "png",
-      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/dusshera.png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Mask%20group.png",
       "fallbackAsset": "homeCurveBanner",
       "aspectRatio": 1.6,
       "fit": "fill",
