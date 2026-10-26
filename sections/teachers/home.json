@@ -14,7 +14,21 @@
   },
   "header": {
     "greetingAnimationUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Diwali.json",
-    "nameTextColor": "#333333"
+    "nameTextColor": "#333333",
+    "decorativeOverlay": {
+      "enabled": true,
+      "assetUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/shopping.json",
+      "assetType": "lottie",
+      "alignment": "topCenter",
+      "top": 8,
+      "left": 0,
+      "right": 0,
+      "height": 95,
+      "fit": "contain",
+      "opacity": 1.0,
+      "loop": true,
+      "autoplay": true
+    }
   },
   "hero": {
     "kicker": "MAKHAN CHOR DAYS",
