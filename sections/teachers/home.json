@@ -13,7 +13,7 @@
     "accent": "#FFB300"
   },
   "header": {
-    "greetingAnimationUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/hello_greeting.json",
+    "greetingAnimationUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Diwali.json",
     "nameTextColor": "#333333"
   },
   "hero": {
@@ -21,7 +21,7 @@
     "title": "Janmashtami",
     "background": {
       "type": "png",
-      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/circle-green.png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/diwalired.png",
       "fit": "fill",
       "maxBytes": 1572864
     },
@@ -40,7 +40,7 @@
   "home": {
     "background": {
       "type": "png",
-      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/green-banner.png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/diwalibannernew.png",
       "fallbackAsset": "homeCurveBanner",
       "fit": "cover",
       "aspectRatio": 1.6,
