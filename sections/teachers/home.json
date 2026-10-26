@@ -14,7 +14,7 @@
   },
   "header": {
     "greetingAnimationUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Diwali.json",
-    "nameTextColor": "#333333"
+    "nameTextColor": "#FFFFFF"
   },
   "headerDecorations": {
     "decorativeOverlay": {
