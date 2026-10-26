@@ -51,6 +51,20 @@
       "semanticLabelKey": "home_curve_banner",
       "reducedMotionFallback": null
     },
+    "decorativeOverlay": {
+      "enabled": true,
+      "assetUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/shopping.json",
+      "assetType": "lottie",
+      "alignment": "topCenter",
+      "top": 8,
+      "left": 0,
+      "right": 0,
+      "height": 95,
+      "fit": "contain",
+      "opacity": 1.0,
+      "loop": true,
+      "autoplay": true
+    },
     "categoryTextColor": "#333333",
     "featuredCategoriesTextColor": "#333333",
     "banners": [
