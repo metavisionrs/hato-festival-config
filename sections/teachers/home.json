@@ -91,7 +91,7 @@
       "background": null,
       "art": {
         "type": "image",
-        "url": "https://raw.githubusercontent.com/metavisionrs/hato-festival-config/main/home/hato-ai-assistant.json",
+        "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Diwali%20Magic%20with%20a%20Floating%20Mascot.png",
         "fallbackAsset": null,
         "aspectRatio": 1.0,
         "fit": "contain",
