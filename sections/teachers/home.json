@@ -32,6 +32,7 @@
       "autoplay": true
     }
   },
+
   "hero": {
     "kicker": "MAKHAN CHOR DAYS",
     "title": "Janmashtami",
@@ -67,9 +68,59 @@
       "semanticLabelKey": "home_curve_banner",
       "reducedMotionFallback": null
     },
+    "categoryDecorations": {
+      "enabled": true,
+      "asset": {
+        "type": "lottie",
+        "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Plain%20Christmas%20lights.json",
+        "maxBytes": 524288,
+        "loop": true,
+        "autoplay": true
+      },
+      "positions": {
+        "left": {
+          "enabled": true,
+          "offsetX": 2,
+          "offsetY": 38
+        },
+        "right": {
+          "enabled": true,
+          "offsetX": 2,
+          "offsetY": 38
+        }
+      },
+      "size": {
+        "width": 48,
+        "height": 58
+      },
+      "opacity": 0.9
+    },
     "categoryTextColor": "#333333",
     "featuredCategoriesTextColor": "#333333",
     "banners": [
+      {
+        "id": "everything-hato",
+        "title": "This Diwali Brings Home Happieness",
+        "titleColor": "#BA3F05",
+        "subtitle": "From daily needs to delightful treats, everything you need, delivered.",
+        "subtitleColor": "#333333",
+        "background": null,
+        "art": null,
+        "cta": null
+      },
+      {
+        "id": "ride",
+        "title": "Good food,\nbrighter days.",
+        "titleColor": "#BA3F05",
+        "subtitle": "Farm fresh fruits and \nvegetables from your nearby grocery store",
+        "subtitleColor": "#333333",
+        "background": null,
+        "art": null,
+        "cta": {
+          "label": "Book a ride",
+          "target": "ride"
+        }
+      }
     ],
     "aiAssistant": {
       "id": "ai-assistant",
