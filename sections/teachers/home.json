@@ -132,12 +132,12 @@
             "color": "#C33E08"
           }
         ],
-        "subtitle": "Farm fresh fruits and \nvegetables from your nearby grocery store",
+        "subtitle": "Farm fresh fruits and \nvegetables from your nearby\ngrocery store",
         "subtitleColor": "#333333",
         "background": null,
         "art": null,
         "cta": {
-          "label": "Book a ride",
+          "label": "Explore",
           "target": "ride"
         }
       }
