@@ -95,7 +95,7 @@
       },
       "opacity": 0.9
     },
-    "categoryTextColor": "#FFFFFF",
+    "categoryTextColor": "#333333",
     "featuredCategoriesTextColor": "#333333",
     "banners": [
       {
@@ -115,12 +115,15 @@
         "subtitle": "From daily needs to\ndelightful treats, everything\nyou need, delivered.",
         "subtitleColor": "#333333",
         "background": null,
-        "art": null,
+        "art": {
+          "type": "png",
+          "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/diwaliimg.png"
+        },
         "cta": null
       },
       {
         "id": "ride",
-        "title": "Good Food,\nbrighter days.",
+        "title": "Good Food,\nBrighter days.",
         "titleColor": "#BA3F05",
         "titleSegments": [
           {
@@ -132,10 +135,13 @@
             "color": "#C33E08"
           }
         ],
-        "subtitle": "Farm fresh fruits and \nvegetables from your nearby\ngrocery store",
+        "subtitle": "Farm fresh fruits and\nVegetables from your nearby\nGrocery store",
         "subtitleColor": "#333333",
         "background": null,
-        "art": null,
+        "art": {
+          "type": "png",
+          "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/good-food.png"
+        },
         "cta": {
           "label": "Explore",
           "target": "ride"
