@@ -120,15 +120,15 @@
       },
       {
         "id": "ride",
-        "title": "Good food,\nbrighter days.",
+        "title": "Good Food,\nbrighter days.",
         "titleColor": "#BA3F05",
         "titleSegments": [
           {
-            "text": "Good food,\n",
+            "text": "Good Food,\n",
             "color": "#54250D"
           },
           {
-            "text": "brighter days.",
+            "text": "Brighter Days.",
             "color": "#C33E08"
           }
         ],
