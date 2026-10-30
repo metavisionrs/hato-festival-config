@@ -100,9 +100,19 @@
     "banners": [
       {
         "id": "everything-hato",
-        "title": "This Diwali Brings Home Happieness",
+        "title": "This Diwali\nBrings Home\nHappiness",
         "titleColor": "#BA3F05",
-        "subtitle": "From daily needs to delightful treats, everything you need, delivered.",
+        "titleSegments": [
+          {
+            "text": "This Diwali,\n",
+            "color": "#512506"
+          },
+          {
+            "text": "Bring Home\nHappiness",
+            "color": "#BA3F05"
+          }
+        ],
+        "subtitle": "From daily needs to\ndelightful treats, everything\nyou need, delivered.",
         "subtitleColor": "#333333",
         "background": null,
         "art": null,
@@ -112,6 +122,16 @@
         "id": "ride",
         "title": "Good food,\nbrighter days.",
         "titleColor": "#BA3F05",
+        "titleSegments": [
+          {
+            "text": "Good food,\n",
+            "color": "#54250D"
+          },
+          {
+            "text": "brighter days.",
+            "color": "#C33E08"
+          }
+        ],
         "subtitle": "Farm fresh fruits and \nvegetables from your nearby grocery store",
         "subtitleColor": "#333333",
         "background": null,
