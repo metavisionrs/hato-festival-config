@@ -57,7 +57,7 @@
   "home": {
     "background": {
       "type": "png",
-      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/diwalibg1.png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/diwalibannernew.png",
       "fallbackAsset": "homeCurveBanner",
       "fit": "cover",
       "aspectRatio": 1.6,
@@ -95,7 +95,7 @@
       },
       "opacity": 0.9
     },
-    "categoryTextColor": "#333333",
+    "categoryTextColor": "#FFFFFF",
     "featuredCategoriesTextColor": "#333333",
     "banners": [
       {
