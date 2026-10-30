@@ -146,6 +146,29 @@
           "label": "Explore",
           "target": "ride"
         }
+      },
+      {
+        "id": "diwali-sweets",
+        "title": "Make Diwali Sweeter!",
+        "titleColor": "#BA3F05",
+        "titleSegments": [
+          {
+            "text": "Make Diwali\n",
+            "color": "#54250D"
+          },
+          {
+            "text": "Sweeter!",
+            "color": "#C33E08"
+          }
+        ],
+        "subtitle": "Delight in festive mithai,\ntreats & traditional favourites.",
+        "subtitleColor": "#333333",
+        "background": null,
+        "art": {
+          "type": "png",
+          "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/diwaliimg.png"
+        },
+        "cta": null
       }
     ],
     "aiAssistant": {
