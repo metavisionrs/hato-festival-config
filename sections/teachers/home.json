@@ -72,7 +72,7 @@
       "enabled": true,
       "asset": {
         "type": "lottie",
-        "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Plain%20Christmas%20lights.json",
+        "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Fireworks_Transparent.json",
         "maxBytes": 524288,
         "loop": true,
         "autoplay": true
