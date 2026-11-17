@@ -13,12 +13,12 @@
     "accent": "#FFB300"
   },
   "header": {
-    "greetingAnimationUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Happy%20Diwali%20Golden%20Particles%20Greeting.json",
-    "nameTextColor": "#FFFFFF"
+    "greetingAnimationUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/hello_greeting.json",
+    "nameTextColor": "#333333"
   },
   "headerDecorations": {
     "decorativeOverlay": {
-      "enabled": true,
+      "enabled": false,
       "assetUrl": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Plain%20Christmas%20lights.json",
       "assetType": "lottie",
       "alignment": "topCenter",
@@ -38,7 +38,7 @@
     "title": "Janmashtami",
     "background": {
       "type": "png",
-      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/diwalired.png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/circle-green.png",
       "fit": "fill",
       "maxBytes": 1572864
     },
@@ -57,7 +57,7 @@
   "home": {
     "background": {
       "type": "png",
-      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/diwalibannernew.png",
+      "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/green-banner.png",
       "fallbackAsset": "homeCurveBanner",
       "fit": "cover",
       "aspectRatio": 1.6,
@@ -69,7 +69,7 @@
       "reducedMotionFallback": null
     },
     "categoryDecorations": {
-      "enabled": true,
+      "enabled": false,
       "asset": {
         "type": "lottie",
         "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Fireworks_Transparent.json",
@@ -100,47 +100,47 @@
     "banners": [
       {
         "id": "everything-hato",
-        "title": "This Diwali\nBrings Home\nHappiness",
+        "title": "Cravings called.\nWe answered!",
         "titleColor": "#BA3F05",
         "titleSegments": [
           {
-            "text": "This Diwali,\n",
+            "text": "Cravings called.\n",
             "color": "#512506"
           },
           {
-            "text": "Bring Home\nHappiness",
+            "text": "We answered!",
             "color": "#BA3F05"
           }
         ],
-        "subtitle": "From daily needs to\ndelightful treats, everything\nyou need, delivered.",
+        "subtitle": "Your favourite meals\nare just a few taps away.",
         "subtitleColor": "#333333",
         "background": null,
         "art": {
           "type": "png",
-          "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/diwaliimg.png"
+          "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/image.png"
         },
         "cta": null
       },
       {
         "id": "ride",
-        "title": "Good Food,\nBrighter days.",
+        "title": "Fresh picks.\nHappy homes.",
         "titleColor": "#BA3F05",
         "titleSegments": [
           {
-            "text": "Good Food,\n",
+            "text": "Fresh picks\n",
             "color": "#FFFFFF"
           },
           {
-            "text": "Brighter Days.",
+            "text": "Happy Home",
             "color": "#C33E08"
           }
         ],
-        "subtitle": "Farm fresh fruits and\nVegetables from your nearby\nGrocery store",
+        "subtitle": "Everything your\nkitchen needs,\ndelivered to your doorstep.",
         "subtitleColor": "#333333",
         "background": null,
         "art": {
           "type": "png",
-          "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/good-food.png"
+          "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/image%20(1).png"
         },
         "cta": {
           "label": "Explore",
@@ -149,24 +149,24 @@
       },
       {
         "id": "diwali-sweets",
-        "title": "Make Diwali Sweeter!",
+        "title": "Send it.\nWe’ll get it there.",
         "titleColor": "#BA3F05",
         "titleSegments": [
           {
-            "text": "Make Diwali\n",
+            "text": "Send it.\n",
             "color": "#54250D"
           },
           {
-            "text": "Sweeter!",
+            "text": "We’ll get it there.!",
             "color": "#C33E08"
           }
         ],
-        "subtitle": "Delight in festive mithai,\ntreats & traditional favourites.",
+        "subtitle": "Quick and\nconvenient parcel\npickup and delivery.",
         "subtitleColor": "#333333",
         "background": null,
         "art": {
-          "type": "png",
-          "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/diwaliimg.png"
+          "type": "lottie",
+          "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Parcel%20Address.json"
         },
         "cta": null
       }
@@ -190,7 +190,7 @@
       "subtitleColor": "#333333",
       "background": null,
       "art": {
-        "type": "image",
+        "type": "png",
         "url": "https://cqkjrhdnayikkiqvlyuu.supabase.co/storage/v1/object/public/test-hato-image/Diwali%20Magic%20with%20a%20Floating%20Mascot.png",
         "fallbackAsset": null,
         "aspectRatio": 1.0,
